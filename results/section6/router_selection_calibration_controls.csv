@@ -1,0 +1,19 @@
+keep,control,metric,cfs_policy,taylor_policy,cfs_value,taylor_value,delta_cfs_minus_taylor,ci95_low,ci95_high
+3,same learned pairwise calibration,accuracy,dynamic_cfs_router_merge,taylor_router_merge,0.8296130952380952,0.8288690476190476,0.0007440476190476719,-0.0133928571428571,0.015625
+3,same learned pairwise calibration,dense_agreement,dynamic_cfs_router_merge,taylor_router_merge,0.9464285714285716,0.9278273809523808,0.0186011904761908,0.0007440476190476,0.0379464285714285
+3,same learned pairwise calibration,kl_to_dense,dynamic_cfs_router_merge,taylor_router_merge,0.0851144910501759,0.1546883731858715,-0.0695738821356956,-0.0874976895341823,-0.0537026990568132
+3,oracle pairwise alpha,accuracy,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.8162202380952381,0.8191964285714285,-0.0029761904761903546,-0.0178571428571428,0.0111607142857142
+3,oracle pairwise alpha,dense_agreement,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.9620535714285716,0.9575892857142856,0.0044642857142860315,-0.0141369047619047,0.0238095238095238
+3,oracle pairwise alpha,kl_to_dense,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.0769551540669496,0.137399354151317,-0.06044420008436739,-0.0794045331102249,-0.0435277296922474
+6,same learned pairwise calibration,accuracy,dynamic_cfs_router_merge,taylor_router_merge,0.8288690476190476,0.8311011904761906,-0.0022321428571430157,-0.0148809523809523,0.0104166666666666
+6,same learned pairwise calibration,dense_agreement,dynamic_cfs_router_merge,taylor_router_merge,0.9665178571428572,0.9516369047619048,0.014880952380952439,-0.0007440476190476,0.03125
+6,same learned pairwise calibration,kl_to_dense,dynamic_cfs_router_merge,taylor_router_merge,0.0232316026092684,0.0409918125563611,-0.0177602099470927,-0.0242319289598016,-0.0121789901581499
+6,oracle pairwise alpha,accuracy,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.8199404761904763,0.8236607142857143,-0.0037202380952380265,-0.0133928571428571,0.0052083333333333
+6,oracle pairwise alpha,dense_agreement,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.9851190476190476,0.9732142857142856,0.011904761904761973,-0.0022321428571428,0.0275297619047619
+6,oracle pairwise alpha,kl_to_dense,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.0147479981540181,0.0301429930758396,-0.015394994921821498,-0.0208527200520471,-0.0108665865625155
+9,same learned pairwise calibration,accuracy,dynamic_cfs_router_merge,taylor_router_merge,0.8206845238095237,0.8177083333333334,0.0029761904761903546,-0.0052083333333333,0.0119047619047619
+9,same learned pairwise calibration,dense_agreement,dynamic_cfs_router_merge,taylor_router_merge,0.9866071428571428,0.9799107142857144,0.006696428571428381,-0.003720238095238,0.0178571428571428
+9,same learned pairwise calibration,kl_to_dense,dynamic_cfs_router_merge,taylor_router_merge,0.0063343481895225,0.0130945513110851,-0.0067602031215626,-0.0096848552325258,-0.0045125716350713
+9,oracle pairwise alpha,accuracy,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.8206845238095237,0.8214285714285715,-0.0007440476190477829,-0.0052083333333333,0.003720238095238
+9,oracle pairwise alpha,dense_agreement,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.9940476190476192,0.9955357142857144,-0.0014880952380952328,-0.0066964285714285,0.0029761904761904
+9,oracle pairwise alpha,kl_to_dense,dynamic_cfs_router_oracle_merge,taylor_oracle_merge,0.0035500435377408,0.0084783535982881,-0.004928310060547301,-0.0075659268911972,-0.0028959327401071

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Conditional Functional Substitutability (CFS)"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Jiaheng
+  - family-names: Li
+    given-names: Jiaxing
+  - family-names: Xiao
+    given-names: Yucheng
+  - family-names: Cai
+    given-names: Xinyong
+  - family-names: Bu
+    given-names: Juncheng
+  - family-names: Yu
+    given-names: Lan
+  - family-names: Zhang
+    given-names: Tinghe
+repository-code: "https://github.com/11isnotavailable/CFS"
+date-released: 2026-11-13
+preferred-citation:
+  type: article
+  title: "Effective Does Not Mean Useful: Conditional Functional Substitutability for Redundancy and Scaling in Transformers"
+  authors:
+    - family-names: Chen
+      given-names: Jiaheng
+    - family-names: Li
+      given-names: Jiaxing
+    - family-names: Xiao
+      given-names: Yucheng
+    - family-names: Cai
+      given-names: Xinyong
+    - family-names: Bu
+      given-names: Juncheng
+    - family-names: Yu
+      given-names: Lan
+    - family-names: Zhang
+      given-names: Tinghe
+  year: 2026
+  url: "https://arxiv.org/abs/2609.39259"

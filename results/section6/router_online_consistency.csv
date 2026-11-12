@@ -1,0 +1,4 @@
+keep,policy,accuracy,dense_agreement,mean_kl_to_dense,seconds,relative_runtime,mask_mismatch,images,mask_match,mask_agreement,timing_claim
+3,online_dynamic_cfs_router,0.8169642857142857,0.9419642857142856,0.1200653237423726,0.9070698999967136,1.033517688641928,1,448,447,0.9977678571428571,correctness only; dense fused QKV remains active
+6,online_dynamic_cfs_router,0.8258928571428571,0.9665178571428572,0.032322368185435,0.7496088000007148,0.8541061216618422,1,448,447,0.9977678571428571,correctness only; dense fused QKV remains active
+9,online_dynamic_cfs_router,0.8236607142857143,0.9799107142857144,0.0087352028016799,0.7280092999935732,0.8294955979047611,1,448,447,0.9977678571428571,correctness only; dense fused QKV remains active

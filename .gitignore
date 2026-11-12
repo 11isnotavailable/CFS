@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.cache/
+.matplotlib/
+
+# Local data, checkpoints, and generated experiment artifacts.
+data/
+assets/
+outputs/
+checkpoints/
+remote_artifacts/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.tar
+*.tar.gz
+*.zip
+*.log
+
+# Keep the curated, tracked summaries under results/.
+!results/
+!results/**

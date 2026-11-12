@@ -1,0 +1,5 @@
+model_size,model,parameters,heads,head_dim,task,task_performance,evaluated_layers,samples,valid_source_coverage,raw_oracle,matched_2,cover_per_head_tau_0.5,rank_per_head,mean_deletion_kl,weighted_recovery
+tiny,vit_tiny_patch16_224.augreg_in21k_ft_in1k,5717416,3,64,ImageNet-1K classifier on Imagenette-160 inputs,0.70703125,11,512,0.98046875,0.3320909239255324,0.3320909239255324,0.8,0.89,,
+small,vit_small_patch16_224.augreg_in21k_ft_in1k,22050664,6,64,ImageNet-1K classifier on Imagenette-160 inputs,0.740234375,11,512,0.9954427083333334,0.4052391216177634,0.2774740860138829,0.733,0.868,,
+base,vit_base_patch16_224.augreg_in21k_ft_in1k,86567656,12,64,ImageNet-1K classifier on Imagenette-160 inputs,0.826171875,11,512,0.9728190104166666,0.4778020004809135,0.263061968386758,0.636,0.756,,
+large,vit_large_patch16_224.augreg_in21k_ft_in1k,304326632,16,64,ImageNet-1K classifier on Imagenette-160 inputs,0.84375,23,512,0.7166748046875,0.5639580564698781,0.3308861690548185,0.379,0.475,,

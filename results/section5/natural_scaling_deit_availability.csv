@@ -1,0 +1,2 @@
+family,available_models,complete_natural_scaling_sweep,recommended_section5_use
+DeiT,DeiT-S only,False,omit as a natural-scaling family; retain discovery/validation experiments
