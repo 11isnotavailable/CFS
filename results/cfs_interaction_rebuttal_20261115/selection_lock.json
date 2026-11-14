@@ -1,0 +1,61 @@
+{
+  "selected": {
+    "A1": {
+      "variant": "A1",
+      "strength": 0.01,
+      "epoch": 27.0,
+      "val_joint_regret": 0.0084324013441801,
+      "val_K3": 0.0123420376330614,
+      "val_K6": 0.0100384727120399,
+      "val_K9": 0.0029166934546083,
+      "train_cfs": 2.38249983638525,
+      "train_listwise": 2.365611057728529,
+      "train_score": 0.03377756421105,
+      "train_deletion": 1.970545852556825,
+      "train_alpha": 0.2287963763810694,
+      "train_joint": 3.564017593860626,
+      "train_joint_K3": 3.442387573421001,
+      "train_joint_K6": 3.613199289888144,
+      "train_joint_K9": 3.636465638875961
+    },
+    "A2": {
+      "variant": "A2",
+      "strength": 0.01,
+      "epoch": 31.0,
+      "val_joint_regret": 0.0080236149951815,
+      "val_K3": 0.0110781677067279,
+      "val_K6": 0.0102225607261061,
+      "val_K9": 0.0027701160870492,
+      "train_cfs": 2.3795936964452267,
+      "train_listwise": 2.361362475901842,
+      "train_score": 0.0364624353824183,
+      "train_deletion": 1.8774643782526252,
+      "train_alpha": 0.2286163396202027,
+      "train_joint": 3.561657175421715,
+      "train_joint_K3": 3.4398233294487,
+      "train_joint_K6": 3.6113295890390873,
+      "train_joint_K9": 3.633818317204714
+    },
+    "A3": {
+      "variant": "A3",
+      "strength": 0.01,
+      "epoch": 22.0,
+      "val_joint_regret": 0.0074180648662149,
+      "val_K3": 0.0108675193041563,
+      "val_K6": 0.0085327625274658,
+      "val_K9": 0.0028539134655147,
+      "train_cfs": 2.3877377212047577,
+      "train_listwise": 2.3698746599256992,
+      "train_score": 0.0357261185999959,
+      "train_deletion": 1.9962641261518,
+      "train_alpha": 0.2021944997832179,
+      "train_joint": 3.5676574259996414,
+      "train_joint_K3": 3.4463498555123806,
+      "train_joint_K6": 3.616342891007662,
+      "train_joint_K9": 3.6402792185544968
+    }
+  },
+  "headline": "A3",
+  "rule": "seed17 minimum mean tune candidate regret; no new held-out evaluation yet",
+  "test_used": false
+}

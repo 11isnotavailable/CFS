@@ -1,0 +1,25 @@
+{
+  "fit_inputs": 64,
+  "test_inputs": 128,
+  "alpha": 1,
+  "train_split": "tune only",
+  "test_split": "fixed 128 heldout inputs",
+  "valid_source_threshold": 1e-05,
+  "controls": [
+    "cosine",
+    "taylor_mean",
+    "taylor_difference",
+    "log_drop_mean",
+    "log_drop_difference"
+  ],
+  "cfs_features": [
+    "cfs_mean",
+    "cfs_max",
+    "cfs_asymmetry"
+  ],
+  "shared_covariates": [
+    "background identity",
+    "pair identity"
+  ],
+  "bootstrap": "2000 independent test inputs; no independent pair resampling"
+}

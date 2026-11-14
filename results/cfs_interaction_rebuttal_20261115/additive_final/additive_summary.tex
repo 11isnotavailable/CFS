@@ -1,0 +1,66 @@
+\begin{tabular}{llrlrrrrr}
+\toprule
+split & source & keep & metric & n & mean & sd & ci_low & ci_high \\
+\midrule
+test & new_uniform_masks & 3 & rmse & 128 & 0.107181 & 0.092987 & 0.091682 & 0.123484 \\
+test & new_uniform_masks & 3 & mae & 128 & 0.083532 & 0.074238 & 0.071045 & 0.096693 \\
+test & new_uniform_masks & 3 & train_rmse & 128 & 0.070215 & 0.060394 & 0.060208 & 0.080900 \\
+test & new_uniform_masks & 3 & constant_rmse & 128 & 0.330169 & 0.284212 & 0.283450 & 0.378523 \\
+test & new_uniform_masks & 3 & residual_sd & 128 & 0.108019 & 0.093552 & 0.092360 & 0.124378 \\
+test & new_uniform_masks & 6 & rmse & 128 & 0.082097 & 0.082400 & 0.068613 & 0.096422 \\
+test & new_uniform_masks & 6 & mae & 128 & 0.065027 & 0.068036 & 0.053990 & 0.077201 \\
+test & new_uniform_masks & 6 & train_rmse & 128 & 0.054578 & 0.052796 & 0.045859 & 0.063775 \\
+test & new_uniform_masks & 6 & constant_rmse & 128 & 0.168423 & 0.172981 & 0.138865 & 0.197564 \\
+test & new_uniform_masks & 6 & residual_sd & 128 & 0.082804 & 0.083112 & 0.069188 & 0.097261 \\
+test & new_uniform_masks & 9 & rmse & 128 & 0.035572 & 0.044914 & 0.028173 & 0.043747 \\
+test & new_uniform_masks & 9 & mae & 128 & 0.025556 & 0.031215 & 0.020434 & 0.031167 \\
+test & new_uniform_masks & 9 & train_rmse & 128 & 0.023874 & 0.029850 & 0.018907 & 0.029323 \\
+test & new_uniform_masks & 9 & constant_rmse & 128 & 0.068407 & 0.084124 & 0.054532 & 0.083547 \\
+test & new_uniform_masks & 9 & residual_sd & 128 & 0.035876 & 0.045299 & 0.028416 & 0.044138 \\
+train & cached_anchor_pool & 3 & rmse & 4096 & 0.124168 & 0.108575 & 0.120924 & 0.127492 \\
+train & cached_anchor_pool & 3 & mae & 4096 & 0.094604 & 0.084320 & 0.092043 & 0.097166 \\
+train & cached_anchor_pool & 3 & train_rmse & 4096 & 0.080748 & 0.071259 & 0.078579 & 0.082935 \\
+train & cached_anchor_pool & 3 & constant_rmse & 4096 & 0.310636 & 0.279415 & 0.302072 & 0.319222 \\
+train & cached_anchor_pool & 3 & residual_sd & 4096 & 0.125218 & 0.109509 & 0.121956 & 0.128577 \\
+train & cached_anchor_pool & 6 & rmse & 4096 & 0.040676 & 0.047493 & 0.039281 & 0.042085 \\
+train & cached_anchor_pool & 6 & mae & 4096 & 0.027262 & 0.031307 & 0.026338 & 0.028190 \\
+train & cached_anchor_pool & 6 & train_rmse & 4096 & 0.023968 & 0.027377 & 0.023134 & 0.024760 \\
+train & cached_anchor_pool & 6 & constant_rmse & 4096 & 0.087123 & 0.096915 & 0.084256 & 0.090010 \\
+train & cached_anchor_pool & 6 & residual_sd & 4096 & 0.041010 & 0.047864 & 0.039606 & 0.042428 \\
+train & cached_anchor_pool & 9 & rmse & 4096 & 0.016694 & 0.023933 & 0.015982 & 0.017408 \\
+train & cached_anchor_pool & 9 & mae & 4096 & 0.010944 & 0.015344 & 0.010492 & 0.011405 \\
+train & cached_anchor_pool & 9 & train_rmse & 4096 & 0.010289 & 0.014493 & 0.009862 & 0.010723 \\
+train & cached_anchor_pool & 9 & constant_rmse & 4096 & 0.043534 & 0.058060 & 0.041732 & 0.045250 \\
+train & cached_anchor_pool & 9 & residual_sd & 4096 & 0.016832 & 0.024135 & 0.016115 & 0.017551 \\
+tune & cached_anchor_pool & 3 & rmse & 64 & 0.119820 & 0.088209 & 0.098477 & 0.142542 \\
+tune & cached_anchor_pool & 3 & mae & 64 & 0.090437 & 0.067212 & 0.073943 & 0.107866 \\
+tune & cached_anchor_pool & 3 & train_rmse & 64 & 0.076742 & 0.055741 & 0.063276 & 0.090889 \\
+tune & cached_anchor_pool & 3 & constant_rmse & 64 & 0.287177 & 0.249906 & 0.228811 & 0.351477 \\
+tune & cached_anchor_pool & 3 & residual_sd & 64 & 0.120930 & 0.089032 & 0.099408 & 0.143854 \\
+tune & cached_anchor_pool & 6 & rmse & 64 & 0.038281 & 0.036108 & 0.029622 & 0.047459 \\
+tune & cached_anchor_pool & 6 & mae & 64 & 0.026811 & 0.025989 & 0.020622 & 0.033499 \\
+tune & cached_anchor_pool & 6 & train_rmse & 64 & 0.023775 & 0.022784 & 0.018358 & 0.029613 \\
+tune & cached_anchor_pool & 6 & constant_rmse & 64 & 0.076147 & 0.076131 & 0.057984 & 0.095485 \\
+tune & cached_anchor_pool & 6 & residual_sd & 64 & 0.038619 & 0.036445 & 0.029889 & 0.047921 \\
+tune & cached_anchor_pool & 9 & rmse & 64 & 0.018499 & 0.026181 & 0.012615 & 0.025213 \\
+tune & cached_anchor_pool & 9 & mae & 64 & 0.011330 & 0.014680 & 0.007998 & 0.015074 \\
+tune & cached_anchor_pool & 9 & train_rmse & 64 & 0.010215 & 0.013062 & 0.007240 & 0.013572 \\
+tune & cached_anchor_pool & 9 & constant_rmse & 64 & 0.034987 & 0.042809 & 0.024806 & 0.045894 \\
+tune & cached_anchor_pool & 9 & residual_sd & 64 & 0.018596 & 0.026305 & 0.012683 & 0.025333 \\
+tune & new_uniform_masks & 3 & rmse & 64 & 0.131483 & 0.096079 & 0.110016 & 0.155620 \\
+tune & new_uniform_masks & 3 & mae & 64 & 0.101851 & 0.073983 & 0.085283 & 0.120149 \\
+tune & new_uniform_masks & 3 & train_rmse & 64 & 0.088344 & 0.064739 & 0.073737 & 0.104634 \\
+tune & new_uniform_masks & 3 & constant_rmse & 64 & 0.387815 & 0.295136 & 0.321047 & 0.461477 \\
+tune & new_uniform_masks & 3 & residual_sd & 64 & 0.132619 & 0.096965 & 0.110966 & 0.156931 \\
+tune & new_uniform_masks & 6 & rmse & 64 & 0.094538 & 0.076985 & 0.075932 & 0.114303 \\
+tune & new_uniform_masks & 6 & mae & 64 & 0.074097 & 0.062055 & 0.059280 & 0.089793 \\
+tune & new_uniform_masks & 6 & train_rmse & 64 & 0.063402 & 0.053051 & 0.050669 & 0.076419 \\
+tune & new_uniform_masks & 6 & constant_rmse & 64 & 0.179088 & 0.160554 & 0.140813 & 0.220398 \\
+tune & new_uniform_masks & 6 & residual_sd & 64 & 0.095374 & 0.077669 & 0.076594 & 0.115230 \\
+tune & new_uniform_masks & 9 & rmse & 64 & 0.035434 & 0.036941 & 0.026782 & 0.044743 \\
+tune & new_uniform_masks & 9 & mae & 64 & 0.025748 & 0.027019 & 0.019450 & 0.032550 \\
+tune & new_uniform_masks & 9 & train_rmse & 64 & 0.024078 & 0.026228 & 0.018090 & 0.030823 \\
+tune & new_uniform_masks & 9 & constant_rmse & 64 & 0.062882 & 0.068334 & 0.047113 & 0.080169 \\
+tune & new_uniform_masks & 9 & residual_sd & 64 & 0.035763 & 0.037305 & 0.027030 & 0.045173 \\
+\bottomrule
+\end{tabular}

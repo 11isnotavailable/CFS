@@ -1,0 +1,19 @@
+{
+  "pilot_runs": 15,
+  "total_new_runs": 21,
+  "epochs_per_run": 60,
+  "headline": "A3",
+  "selected_strengths": {
+    "A1": 0.01,
+    "A2": 0.01,
+    "A3": 0.01
+  },
+  "test_not_used_for_selection": true,
+  "measured_inputs": 192,
+  "unique_mask_interventions": 140128,
+  "measured_quartets": 38016,
+  "routing_rows": 56448,
+  "baseline_max_abs_kl_difference": 4.440892098500626e-16,
+  "bootstrap_unit": "independent input; seeds averaged per input",
+  "extra_teacher_recomputed": false
+}
