@@ -77,6 +77,11 @@ The supplementary candidate-count controls are documented in
 exact Matched-N, Fixed-K induced subgraphs, input-cluster bootstrap, and the
 separately identified Qwen/ViT rerun protocol.
 
+The frozen-backbone MLP neuron-group extension is documented in
+[`docs/MLP_GROUP_CFS_PROTOCOL.md`](docs/MLP_GROUP_CFS_PROTOCOL.md), with
+results and the analytical-generalization limits in
+[`results/mlp_group_cfs_20261115/EXPERIMENT_REPORT.md`](results/mlp_group_cfs_20261115/EXPERIMENT_REPORT.md).
+
 ## Scope and interpretation
 
 - Raw Oracle measures the best available substitute and grows with the set of
