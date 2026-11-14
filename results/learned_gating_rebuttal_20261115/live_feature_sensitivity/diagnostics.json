@@ -1,0 +1,9 @@
+{
+  "feature_max_abs_error": 0.21875,
+  "feature_mean_abs_error": 0.0006990615511313081,
+  "normalized_feature_rmse": 0.0020612117368727922,
+  "normalized_feature_max_error": 0.2974068224430084,
+  "same_backend_batch1_vs_batch16_max_error_first16": 0.03125,
+  "cached_feature_max_abs": 56.375,
+  "interpretation": "Cross-environment FP16 drift is measured; no claim of bitwise historical feature reproduction."
+}

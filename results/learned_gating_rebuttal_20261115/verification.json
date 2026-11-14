@@ -1,0 +1,21 @@
+{
+  "input_hashes_verified": true,
+  "disjoint_paths": true,
+  "train_tune_test": [
+    4096,
+    64,
+    448
+  ],
+  "heldout_teacher_absent": true,
+  "candidates_per_budget": 48,
+  "seeds": [
+    17,
+    23,
+    41
+  ],
+  "epochs_per_new_run": 60,
+  "updates_per_new_run": 3840,
+  "deterministic_smoke_weights_bitwise_equal": true,
+  "rows_per_evaluation": 32256,
+  "identical_dense_logits_across_feature_audit": true
+}

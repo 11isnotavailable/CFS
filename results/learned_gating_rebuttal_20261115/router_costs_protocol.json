@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "batch": 1,
+  "dtype": "float32",
+  "warmup": 50,
+  "repeats": 200,
+  "random_weights": true,
+  "latency_scope": "router forward and one K selection, GPU events; no backbone, summary or compensation",
+  "flop_scope": "linear multiplies/adds only; excludes GELU, softmax, TopK and subset reductions"
+}
