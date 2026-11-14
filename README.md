@@ -72,6 +72,11 @@ for the canonical algorithm and
 [`docs/protocols/REPRODUCIBILITY_AND_RELEASE.md`](docs/protocols/REPRODUCIBILITY_AND_RELEASE.md)
 for protocol invariants and artifact boundaries.
 
+The supplementary candidate-count controls are documented in
+[`docs/MATCHED_SCALING_REBUTTAL.md`](docs/MATCHED_SCALING_REBUTTAL.md):
+exact Matched-N, Fixed-K induced subgraphs, input-cluster bootstrap, and the
+separately identified Qwen/ViT rerun protocol.
+
 ## Scope and interpretation
 
 - Raw Oracle measures the best available substitute and grows with the set of
