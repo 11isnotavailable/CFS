@@ -1,0 +1,36 @@
+{
+  "runs": 9,
+  "epochs_per_run": 20,
+  "updates_total": 11520,
+  "added_parameters": 14945,
+  "total_parameters": 840036,
+  "frozen_source_hashes_unchanged": true,
+  "residual_fit_inputs": 4096,
+  "fit_masks_per_budget": 36,
+  "held_masks_per_budget": 12,
+  "validation_inputs": 64,
+  "old_test_inputs": 448,
+  "confirmation_inputs": 256,
+  "confirmation_path_disjoint": true,
+  "confirmation_hashes_checked": true,
+  "selection_precedes_confirmation": true,
+  "amendment_precedes_confirmation": true,
+  "primary": "A3",
+  "backbone_trained": false,
+  "old_quartets_used_for_fit": false,
+  "evaluations": [
+    {
+      "dense_reference_exact": true,
+      "inputs": 448,
+      "rows": 36288,
+      "seconds": 8.34058385901153,
+      "old_baseline_max_kl_difference": 1.1102230246251565e-16
+    },
+    {
+      "dense_reference_exact": true,
+      "inputs": 256,
+      "rows": 20736,
+      "seconds": 4.758862159680575
+    }
+  ]
+}

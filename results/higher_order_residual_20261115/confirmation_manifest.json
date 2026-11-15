@@ -1,0 +1,1291 @@
+{
+  "seed": 20261115,
+  "count": 256,
+  "old_paths": 4608,
+  "old_unique_hashes": 4608,
+  "eligible": 3413,
+  "model_outputs_computed": false,
+  "scope": "New inputs for this routing series; same Imagenette validation population",
+  "images": [
+    {
+      "dataset_index": 19,
+      "path": "val/n01440764/n01440764_10290.JPEG",
+      "sha256": "b688ff4e4adf5a73b10e32c66f92647461df8ee35002c6494944f4bf9bd89ad5"
+    },
+    {
+      "dataset_index": 30,
+      "path": "val/n01440764/n01440764_10491.JPEG",
+      "sha256": "61f0717e031d6711aa9fc2b50bb8384735cf8df81c69860b95ed4db6c1b20727"
+    },
+    {
+      "dataset_index": 34,
+      "path": "val/n01440764/n01440764_10592.JPEG",
+      "sha256": "917867323710069b9dd41bb941b5f4f8ff12098ffc2730eb37228d81a8f2b767"
+    },
+    {
+      "dataset_index": 36,
+      "path": "val/n01440764/n01440764_10792.JPEG",
+      "sha256": "4053b88622badbbf7a69e9170229f9a5ba21beeb0c6d25ddc53bd0eba539644f"
+    },
+    {
+      "dataset_index": 120,
+      "path": "val/n01440764/n01440764_14411.JPEG",
+      "sha256": "a1029f83018a10922a63927b214313a23fa0b40961388d519093d9eea51ada51"
+    },
+    {
+      "dataset_index": 123,
+      "path": "val/n01440764/n01440764_14650.JPEG",
+      "sha256": "4048365d64d02100f8f25204873d60f71a0b9c3702a6025c679d6d08c2420046"
+    },
+    {
+      "dataset_index": 124,
+      "path": "val/n01440764/n01440764_14731.JPEG",
+      "sha256": "79e32a064f237415a175aef142fe94567f5c08a1482c6b1c612282665c7672f1"
+    },
+    {
+      "dataset_index": 127,
+      "path": "val/n01440764/n01440764_14802.JPEG",
+      "sha256": "67ef5bdaf48db12d2a30d1efe98a204237a413baedb044d884bb61c18d1a6341"
+    },
+    {
+      "dataset_index": 142,
+      "path": "val/n01440764/n01440764_17501.JPEG",
+      "sha256": "81eaaa0a21b175016101b6bb38d6c14c09fa7719e393462f7457fb0d504fd725"
+    },
+    {
+      "dataset_index": 146,
+      "path": "val/n01440764/n01440764_18220.JPEG",
+      "sha256": "fe26f19d313f6f9554c1376beeb851bad8cc3b620b76eb0c0b6a97aaf758dc3d"
+    },
+    {
+      "dataset_index": 161,
+      "path": "val/n01440764/n01440764_2102.JPEG",
+      "sha256": "6bf99205a996cc4828bd8925b1954d51c095294d8647a47337d9444003cf23a5"
+    },
+    {
+      "dataset_index": 197,
+      "path": "val/n01440764/n01440764_29731.JPEG",
+      "sha256": "f1a1ce78a1073c96b472ee24817ea2975fb59c620d462f73983adecdf67c1a57"
+    },
+    {
+      "dataset_index": 243,
+      "path": "val/n01440764/n01440764_5361.JPEG",
+      "sha256": "9eb991f9f829cde084c6a852850b30729008d928965302f1d5b2500336f77acf"
+    },
+    {
+      "dataset_index": 252,
+      "path": "val/n01440764/n01440764_5731.JPEG",
+      "sha256": "03d61ee7b80fe59960c4697c8fcf89f328b6a2b7bb024f8c72a82e2dc50edf2e"
+    },
+    {
+      "dataset_index": 254,
+      "path": "val/n01440764/n01440764_5802.JPEG",
+      "sha256": "d5df6f40e3c1828d20ca9ba1b2c476d4580e95881de9b35b30a6ed1d818c5b5b"
+    },
+    {
+      "dataset_index": 256,
+      "path": "val/n01440764/n01440764_5902.JPEG",
+      "sha256": "39e9472eaa4cdb40c787f4b6455e640636be3be485fb3f5901f1e96c34d98c84"
+    },
+    {
+      "dataset_index": 343,
+      "path": "val/n01440764/n01440764_8442.JPEG",
+      "sha256": "6f207f51b4384f3510d3f234827d3ea2834932714a96702909fefbed8f1bd83f"
+    },
+    {
+      "dataset_index": 346,
+      "path": "val/n01440764/n01440764_8531.JPEG",
+      "sha256": "1961bdef9c39c1c9d3f6786b63d8ba3b2227c5bdc4c275c6c09a1dc54d8ae8a5"
+    },
+    {
+      "dataset_index": 349,
+      "path": "val/n01440764/n01440764_8600.JPEG",
+      "sha256": "a2210c772894d798a00dc829b64c1834f0fa439d686c69ed61eea007a0427b50"
+    },
+    {
+      "dataset_index": 357,
+      "path": "val/n01440764/n01440764_8801.JPEG",
+      "sha256": "b2802b40643b701df56301c7c5c1693c9e55b306f31cc6ce902e4d78a89b9179"
+    },
+    {
+      "dataset_index": 360,
+      "path": "val/n01440764/n01440764_8992.JPEG",
+      "sha256": "3f2ab9e96b6eb498941e8d06f0b528498334b2b9fc718a32beb45dd5dee635e9"
+    },
+    {
+      "dataset_index": 375,
+      "path": "val/n01440764/n01440764_9621.JPEG",
+      "sha256": "d1df9d17d44a798094da9929d9c0964415d57ee78d05027201bd309e519d445f"
+    },
+    {
+      "dataset_index": 385,
+      "path": "val/n01440764/n01440764_9962.JPEG",
+      "sha256": "17fcf7ce668569eb137312232a96f2598e5a773246b59a1c02fa291244db42fb"
+    },
+    {
+      "dataset_index": 389,
+      "path": "val/n02102040/ILSVRC2012_val_00008162.JPEG",
+      "sha256": "cf568899895caffc556cbf2cb25daa4d417d944062a2ee89564b603aa3a57c66"
+    },
+    {
+      "dataset_index": 415,
+      "path": "val/n02102040/n02102040_1130.JPEG",
+      "sha256": "e773ae578b6942d610c3be0912cf221fb51cdd04239ae3b459857db51f949b0c"
+    },
+    {
+      "dataset_index": 437,
+      "path": "val/n02102040/n02102040_1430.JPEG",
+      "sha256": "7760c9b63675b22ea1ae54fbee46b4755b4b20c7a59a55182b659aaa9cb6fe93"
+    },
+    {
+      "dataset_index": 440,
+      "path": "val/n02102040/n02102040_150.JPEG",
+      "sha256": "c1544c7313cc3b2b0f3525114bdb3eb450efd0883463366d5c1cba465c3334c2"
+    },
+    {
+      "dataset_index": 483,
+      "path": "val/n02102040/n02102040_2302.JPEG",
+      "sha256": "3254c017b6da585b9d14241195ed2dac4289c0e41dfb7fb6f0f3646f60ba376e"
+    },
+    {
+      "dataset_index": 502,
+      "path": "val/n02102040/n02102040_2790.JPEG",
+      "sha256": "e18334a0e24fad81d96082786ca8d496afb50c91e7f98f5122ff5f48c59c6929"
+    },
+    {
+      "dataset_index": 506,
+      "path": "val/n02102040/n02102040_2842.JPEG",
+      "sha256": "eda6952e851e6bcae0eedb336cc711dface70395a01ef568ac137facc167beec"
+    },
+    {
+      "dataset_index": 527,
+      "path": "val/n02102040/n02102040_3141.JPEG",
+      "sha256": "4dfbf39b166d3d9b0ddc0bbf10f9a84b5ff201b566d72cf6772f636abadeb22b"
+    },
+    {
+      "dataset_index": 540,
+      "path": "val/n02102040/n02102040_332.JPEG",
+      "sha256": "dcb49de152c947ab5f868437702f7df04a85bf4e78eee20446e06ed168491d5d"
+    },
+    {
+      "dataset_index": 548,
+      "path": "val/n02102040/n02102040_3462.JPEG",
+      "sha256": "6ad263ad1c1f983bddb2424b6b1870b60eea1a6ab1934d460c4ac8468f19f336"
+    },
+    {
+      "dataset_index": 549,
+      "path": "val/n02102040/n02102040_3472.JPEG",
+      "sha256": "cbae9ccf3fd1b77d4f6228692702901a4c8b3723333e467fe5264451da15be36"
+    },
+    {
+      "dataset_index": 566,
+      "path": "val/n02102040/n02102040_372.JPEG",
+      "sha256": "163c657f80a061ee79d4c83ec1d9c8173afb974faa63b8a21e66f4ecbe6b0a74"
+    },
+    {
+      "dataset_index": 572,
+      "path": "val/n02102040/n02102040_3950.JPEG",
+      "sha256": "b0d0a8871e298aeee6fd07403473cfcba3ec1e732f8b621ab8a0612e0452f56a"
+    },
+    {
+      "dataset_index": 630,
+      "path": "val/n02102040/n02102040_5311.JPEG",
+      "sha256": "d360c0b39e67d68ebca4dac30a01f4dfb7825ed00e69f8a716ae5dda137f538f"
+    },
+    {
+      "dataset_index": 641,
+      "path": "val/n02102040/n02102040_571.JPEG",
+      "sha256": "361d10338c25d8f7fa07061a4dd923efff666e414abf32acc6eb3a63570d4ede"
+    },
+    {
+      "dataset_index": 682,
+      "path": "val/n02102040/n02102040_6532.JPEG",
+      "sha256": "dba5ddc86bbf6d44896bc58926789fb9b8394380cb4b8034d80c3ee39611900f"
+    },
+    {
+      "dataset_index": 689,
+      "path": "val/n02102040/n02102040_6630.JPEG",
+      "sha256": "5286848ba06fc6ed8bcb34209e014d9d507751df32ac2344191d0965cfc8ef34"
+    },
+    {
+      "dataset_index": 690,
+      "path": "val/n02102040/n02102040_6652.JPEG",
+      "sha256": "9f16ef5deb700eab92f0f433a49daade13b95622103a43470347f105d47e5f18"
+    },
+    {
+      "dataset_index": 696,
+      "path": "val/n02102040/n02102040_6781.JPEG",
+      "sha256": "3d0d49442911788f72292a51ab65dc300c44e41c83ab49b3d205ae4d4f353ae0"
+    },
+    {
+      "dataset_index": 698,
+      "path": "val/n02102040/n02102040_681.JPEG",
+      "sha256": "24c1a8000f54ca04793d776fa8e36fde0639096ade5a987ff011623f7dc3a95f"
+    },
+    {
+      "dataset_index": 706,
+      "path": "val/n02102040/n02102040_6951.JPEG",
+      "sha256": "0cdfe2e0f1816153e0439a8aa5e335d69b136dd31be000c8dbef2dffc01e328b"
+    },
+    {
+      "dataset_index": 718,
+      "path": "val/n02102040/n02102040_7150.JPEG",
+      "sha256": "298934df90f610c29f071c8d85565fb24ad4c6a8088d88727ec0682be1d63ef3"
+    },
+    {
+      "dataset_index": 721,
+      "path": "val/n02102040/n02102040_7262.JPEG",
+      "sha256": "082bb4eb6b55631c2f50d877cd4d29b0fe3255f4f34dffbadbd04f64730f2da6"
+    },
+    {
+      "dataset_index": 727,
+      "path": "val/n02102040/n02102040_742.JPEG",
+      "sha256": "183698954673aaba617083e50e5f0bb86510b2993fe70d0b1b1ea19c23e1c44e"
+    },
+    {
+      "dataset_index": 745,
+      "path": "val/n02102040/n02102040_7841.JPEG",
+      "sha256": "aefa539b6bc6a36f80bd894ac6dfddcb2396f47e9a68f3feb7bdf544ed96e98a"
+    },
+    {
+      "dataset_index": 752,
+      "path": "val/n02102040/n02102040_8012.JPEG",
+      "sha256": "3fe225c35e34ac4ca299083851fa631f64ba1a0d432c04eb2b38cacc2d637a09"
+    },
+    {
+      "dataset_index": 774,
+      "path": "val/n02102040/n02102040_902.JPEG",
+      "sha256": "8101c9ef3cc396be157bc06199bea47c182dd4673ebc4f29e20fa14e6150a202"
+    },
+    {
+      "dataset_index": 778,
+      "path": "val/n02102040/n02102040_960.JPEG",
+      "sha256": "3d9ee1b385cb9bdd086c4db76ac49e4027fb12642a04ac4552e9aad6ac981341"
+    },
+    {
+      "dataset_index": 788,
+      "path": "val/n02979186/ILSVRC2012_val_00042482.JPEG",
+      "sha256": "27315faea066e4808ef6c50b79b9b488d123f31cdacb1de3480f65b8e8be0484"
+    },
+    {
+      "dataset_index": 791,
+      "path": "val/n02979186/ILSVRC2012_val_00043731.JPEG",
+      "sha256": "e2f65813bba60001718501490f203f4296e4d1cc3400db410f4cc565e8947946"
+    },
+    {
+      "dataset_index": 807,
+      "path": "val/n02979186/n02979186_10612.JPEG",
+      "sha256": "0c781b398552247a04117724f22e09dd6d76227d0166fc5ef945b54ebaf460b3"
+    },
+    {
+      "dataset_index": 835,
+      "path": "val/n02979186/n02979186_12092.JPEG",
+      "sha256": "08e2dc1093be8a996e78078a53748f6a65748852fefdc3eee93cfd0c70ea4867"
+    },
+    {
+      "dataset_index": 892,
+      "path": "val/n02979186/n02979186_15862.JPEG",
+      "sha256": "f28017f65482ae4762c88aaf80dd7c06a65dc413e4ed77df84bcb97b695e8e64"
+    },
+    {
+      "dataset_index": 893,
+      "path": "val/n02979186/n02979186_15901.JPEG",
+      "sha256": "c99d5e2ba3de5e4f24a722873568da9777dd2d31bf9fba9ea09b222ceb0f6d3a"
+    },
+    {
+      "dataset_index": 902,
+      "path": "val/n02979186/n02979186_162.JPEG",
+      "sha256": "343d62a190bf564cc264455e36fb80d7914d74f14a640439832c4c4edfb36525"
+    },
+    {
+      "dataset_index": 943,
+      "path": "val/n02979186/n02979186_19542.JPEG",
+      "sha256": "96897f5d97d3bfdff4b43b46e4b265f4fe1ae46e98db83614566b4ca9e2919e6"
+    },
+    {
+      "dataset_index": 956,
+      "path": "val/n02979186/n02979186_20560.JPEG",
+      "sha256": "39493fdb49d223a0588e7fbf94b1e722c32d5d0e5da9f509f20b51f899bffd53"
+    },
+    {
+      "dataset_index": 1001,
+      "path": "val/n02979186/n02979186_26451.JPEG",
+      "sha256": "97f9a3b7b2ee9879849d540fc1a1dd5f3262cd1dcb95378101c6f911c1251c56"
+    },
+    {
+      "dataset_index": 1004,
+      "path": "val/n02979186/n02979186_26820.JPEG",
+      "sha256": "f64ff65829faa9fc676610713ace21e575a71286e9e97330801e6277f33946ad"
+    },
+    {
+      "dataset_index": 1029,
+      "path": "val/n02979186/n02979186_3182.JPEG",
+      "sha256": "fa96acca232b928252f2c09b59f46187878150166f97a549ed44ad6e544b4ece"
+    },
+    {
+      "dataset_index": 1038,
+      "path": "val/n02979186/n02979186_351.JPEG",
+      "sha256": "7b72bb89e412e11f0561febc3298bad749b3aa4533eef1d7e2f03b483cfe791c"
+    },
+    {
+      "dataset_index": 1039,
+      "path": "val/n02979186/n02979186_3530.JPEG",
+      "sha256": "f2a85524a7de3b54bc577668b8c5047ec37ea3a7e5e9c4bb1340b5b3406896d9"
+    },
+    {
+      "dataset_index": 1092,
+      "path": "val/n02979186/n02979186_6390.JPEG",
+      "sha256": "ecdc03271bfbb0120b3e09bbfca9594a9585a767f038aeafd16971a93b445436"
+    },
+    {
+      "dataset_index": 1104,
+      "path": "val/n02979186/n02979186_7362.JPEG",
+      "sha256": "c48bbc85954e0fb8ea2319c3ce28c26ef2aa3f016a7e01b5d6464316b7dfb30f"
+    },
+    {
+      "dataset_index": 1113,
+      "path": "val/n02979186/n02979186_811.JPEG",
+      "sha256": "5a71ba47ad1cff8e5221596c46067aa474a0b2a0d7e6d6c509cbc6631a80d376"
+    },
+    {
+      "dataset_index": 1118,
+      "path": "val/n02979186/n02979186_8751.JPEG",
+      "sha256": "15879e5bb01846b43d8f9c55ffca96e03d8fffc22ed0429877e87f16dda352c2"
+    },
+    {
+      "dataset_index": 1134,
+      "path": "val/n02979186/n02979186_9651.JPEG",
+      "sha256": "0c217a647fec65f13c4046c8c0791c4d883e236036f63d083ea0eb199c576a56"
+    },
+    {
+      "dataset_index": 1161,
+      "path": "val/n03000684/n03000684_1040.JPEG",
+      "sha256": "3d02edb8e819148b0a71c7604a94915c4eb0775a1acb89c9f9ad4083da01b198"
+    },
+    {
+      "dataset_index": 1164,
+      "path": "val/n03000684/n03000684_10790.JPEG",
+      "sha256": "00a4ceb42750dc85d0186b9b5abf1dc4d5001c3362e70de3bf4c0a20b9961f59"
+    },
+    {
+      "dataset_index": 1169,
+      "path": "val/n03000684/n03000684_10960.JPEG",
+      "sha256": "7a108f9658d9368856c847727e23034de1f5c39c86f64b7840c28fc121df9af9"
+    },
+    {
+      "dataset_index": 1186,
+      "path": "val/n03000684/n03000684_12052.JPEG",
+      "sha256": "3462d97590f83451fb5a91978192cf3fb8e19057fc5a4ea64bc37ba448fed7a6"
+    },
+    {
+      "dataset_index": 1194,
+      "path": "val/n03000684/n03000684_12670.JPEG",
+      "sha256": "94e243feaa5a9382ba55932d8e394efc0450c3a2a3bf790447cd9543559ffe47"
+    },
+    {
+      "dataset_index": 1196,
+      "path": "val/n03000684/n03000684_1290.JPEG",
+      "sha256": "a945a6b85fcccee3602ad4ee81b4030f9e9aff40e9dd49d701c8b85e78d11258"
+    },
+    {
+      "dataset_index": 1204,
+      "path": "val/n03000684/n03000684_13440.JPEG",
+      "sha256": "8095471eaf45172aea1881c2cb900679f0fc954faa4ea88b02e3c873b56e0efc"
+    },
+    {
+      "dataset_index": 1241,
+      "path": "val/n03000684/n03000684_15621.JPEG",
+      "sha256": "8ada40bc7e9ec38b6db6f161630124701033ce80728eb4b70ee59d5f0cf640ae"
+    },
+    {
+      "dataset_index": 1247,
+      "path": "val/n03000684/n03000684_15980.JPEG",
+      "sha256": "d3bbd1bee88a10a944c8096e1def59781cb07864caf353bcb03a779cd5d3dd32"
+    },
+    {
+      "dataset_index": 1259,
+      "path": "val/n03000684/n03000684_16481.JPEG",
+      "sha256": "b6fdedcc8375ceb813dd1aa49ecc499a6e7b3c5950ea08a03f7313e0b75d7314"
+    },
+    {
+      "dataset_index": 1269,
+      "path": "val/n03000684/n03000684_16872.JPEG",
+      "sha256": "2214f9a3b72d2915bd5e5ab52ea1fd0d106f09e9253dfdf57c51fa8981256d50"
+    },
+    {
+      "dataset_index": 1270,
+      "path": "val/n03000684/n03000684_1692.JPEG",
+      "sha256": "240c690765979bcb3174b9b32ddf5560b264962a0259f479ee7d30f7d5daf6a3"
+    },
+    {
+      "dataset_index": 1278,
+      "path": "val/n03000684/n03000684_17192.JPEG",
+      "sha256": "47c2598cb47684799e4b787873d44444f3a9a156e6cd720919c428fa09764982"
+    },
+    {
+      "dataset_index": 1289,
+      "path": "val/n03000684/n03000684_17862.JPEG",
+      "sha256": "edec717d87fa5bf1978a4715b271ed3171294807854de2cb72201acafb4a5f8f"
+    },
+    {
+      "dataset_index": 1291,
+      "path": "val/n03000684/n03000684_17902.JPEG",
+      "sha256": "d5a87f6900b4f20ff3b8e31693fbffd5c8ec98bee087840061378e374bbe6b9d"
+    },
+    {
+      "dataset_index": 1298,
+      "path": "val/n03000684/n03000684_18502.JPEG",
+      "sha256": "7e0601517f2e92a851e0c61e1667d040284c35aa29923bbc49a3b36222e99d2a"
+    },
+    {
+      "dataset_index": 1304,
+      "path": "val/n03000684/n03000684_19071.JPEG",
+      "sha256": "0385524e725e06f1344bc3910ad4cd55e76156c76676f7626775048eabe03677"
+    },
+    {
+      "dataset_index": 1323,
+      "path": "val/n03000684/n03000684_20250.JPEG",
+      "sha256": "0f87b262652e05654401278467c784212a88541b10900b63f64441e6106a9fd9"
+    },
+    {
+      "dataset_index": 1329,
+      "path": "val/n03000684/n03000684_2102.JPEG",
+      "sha256": "6ecfdb2cd58ac522cad24818f3281d523a25f7ea69d0b0b2a200369986fd08fd"
+    },
+    {
+      "dataset_index": 1351,
+      "path": "val/n03000684/n03000684_25411.JPEG",
+      "sha256": "445daccb88dd42e5763c171f74d1bac64ffdc9b785271cdcf8ef64eecb3c3e79"
+    },
+    {
+      "dataset_index": 1363,
+      "path": "val/n03000684/n03000684_28162.JPEG",
+      "sha256": "58cdbb11fe5289367432b6b3dec02526d7a1d6f5f339c6ab12677aac31fc90e0"
+    },
+    {
+      "dataset_index": 1379,
+      "path": "val/n03000684/n03000684_3072.JPEG",
+      "sha256": "186c1e32730e3e1bd88b745a9399b811c9b5e0d8126650469a427017ccdde03c"
+    },
+    {
+      "dataset_index": 1395,
+      "path": "val/n03000684/n03000684_3271.JPEG",
+      "sha256": "481d9ac722f8aac2f81be3b34b78dd0e5e731df306dbc87d065f8558daa59dd7"
+    },
+    {
+      "dataset_index": 1419,
+      "path": "val/n03000684/n03000684_3990.JPEG",
+      "sha256": "42fc8f8b2374833707743918bc4cf523159e707221493ce9c12fbef04a5e6219"
+    },
+    {
+      "dataset_index": 1421,
+      "path": "val/n03000684/n03000684_4001.JPEG",
+      "sha256": "d75e0072dccad06fd75b3146c92541680117e2de3614ecf1ccdfdbb3b3c25b7e"
+    },
+    {
+      "dataset_index": 1430,
+      "path": "val/n03000684/n03000684_4351.JPEG",
+      "sha256": "ac29808b3ad41277d88a4724f638f482672a6df2532129e168dd5406bb508864"
+    },
+    {
+      "dataset_index": 1448,
+      "path": "val/n03000684/n03000684_5910.JPEG",
+      "sha256": "af5dc5d997c27aad60e205214967d626d62e042c955a43485dd5975f14a76b55"
+    },
+    {
+      "dataset_index": 1463,
+      "path": "val/n03000684/n03000684_6552.JPEG",
+      "sha256": "35709f3f3d44d6905694c20935518e2a99dcfd993ed48db922fa81b76823ae47"
+    },
+    {
+      "dataset_index": 1477,
+      "path": "val/n03000684/n03000684_7152.JPEG",
+      "sha256": "8ba96b4b5136dd6da6a944993ee0328277d5dc1ddb3bfc6c1832bcfde18c9bbf"
+    },
+    {
+      "dataset_index": 1506,
+      "path": "val/n03000684/n03000684_8800.JPEG",
+      "sha256": "12fb4ed4cac050cf387215e593971c5cf220d61a8d695e2b593a8a4a47e2f99a"
+    },
+    {
+      "dataset_index": 1512,
+      "path": "val/n03000684/n03000684_9182.JPEG",
+      "sha256": "f819d30dc7363c7d38ac432700ebf51ec096a28b4abeb90f7ae0d3756879d390"
+    },
+    {
+      "dataset_index": 1518,
+      "path": "val/n03000684/n03000684_9452.JPEG",
+      "sha256": "248504ca90db6e2366bc9ca89943b8ec1a1e2ad50a493d25c86c3d4bb5306342"
+    },
+    {
+      "dataset_index": 1519,
+      "path": "val/n03000684/n03000684_9470.JPEG",
+      "sha256": "bfcb5ae5158956d39a38f0077566b323e0f3427e853c39d03681428bdfac920b"
+    },
+    {
+      "dataset_index": 1523,
+      "path": "val/n03000684/n03000684_9881.JPEG",
+      "sha256": "b175276cf54983541b5b9c0af6019b6a736c9a9fc1e1cd10293d092bcaff59bf"
+    },
+    {
+      "dataset_index": 1533,
+      "path": "val/n03028079/ILSVRC2012_val_00019711.JPEG",
+      "sha256": "fb1ed21684b050e4a4087d934cfb209cc9e25192c1baef479cbb09aef7966203"
+    },
+    {
+      "dataset_index": 1548,
+      "path": "val/n03028079/n03028079_10040.JPEG",
+      "sha256": "2f164fde62b09b3dd1257810e7a2c25cdb96720161315c903b1c05c8bad3c567"
+    },
+    {
+      "dataset_index": 1552,
+      "path": "val/n03028079/n03028079_10191.JPEG",
+      "sha256": "40f4e85168595e19a03420d2f4248939297f61e8f3893ffb87787c54444d0307"
+    },
+    {
+      "dataset_index": 1556,
+      "path": "val/n03028079/n03028079_10410.JPEG",
+      "sha256": "333cbd581764cb9fd9115189655b2f27cf226c46ef8a8ac956eec93987ee1188"
+    },
+    {
+      "dataset_index": 1576,
+      "path": "val/n03028079/n03028079_12061.JPEG",
+      "sha256": "764f7ba89b232cd774853acbe4c85a519b4f53f34e4cd3aff8f7c1d9965910a2"
+    },
+    {
+      "dataset_index": 1594,
+      "path": "val/n03028079/n03028079_13601.JPEG",
+      "sha256": "c5a12b8957a2424546c2b6a222826284034c7092635baad03ee3d5a2d8b1e5f2"
+    },
+    {
+      "dataset_index": 1598,
+      "path": "val/n03028079/n03028079_13952.JPEG",
+      "sha256": "d28dbce496a1915f75a887c66dfe2912747672bab063e414222a07c2565862a0"
+    },
+    {
+      "dataset_index": 1639,
+      "path": "val/n03028079/n03028079_16731.JPEG",
+      "sha256": "059bb5a2cfdb2d33caf46509e551b2651811bc897c29d695b6c86750a07a63a0"
+    },
+    {
+      "dataset_index": 1653,
+      "path": "val/n03028079/n03028079_17862.JPEG",
+      "sha256": "617726d12748b9105e91e9dea27118881ec7879f2bd58a1bf5ff74cf0fa2f360"
+    },
+    {
+      "dataset_index": 1662,
+      "path": "val/n03028079/n03028079_20012.JPEG",
+      "sha256": "41822d0073c59e7bb76123fd14aab6b7c31712f6aba172f218dc1697f0c1b659"
+    },
+    {
+      "dataset_index": 1684,
+      "path": "val/n03028079/n03028079_2470.JPEG",
+      "sha256": "597d09dbbddcb1d8745bd2fc4683746ca012b0f334fea0139b836955243c6ea1"
+    },
+    {
+      "dataset_index": 1686,
+      "path": "val/n03028079/n03028079_25331.JPEG",
+      "sha256": "4fdd9e81d737ebfa96b551fde0cce36a79cd93e9ced16aa819346ebd130878b4"
+    },
+    {
+      "dataset_index": 1687,
+      "path": "val/n03028079/n03028079_25391.JPEG",
+      "sha256": "d1b2f485f5ad01dd3e059bbb122508a012089b626781c6cfd0873075b1c79d45"
+    },
+    {
+      "dataset_index": 1712,
+      "path": "val/n03028079/n03028079_2750.JPEG",
+      "sha256": "34222712e6e3ce8a37891cf5a3529d82c3e05c39fc22daf1ccea4ad78e15b7a1"
+    },
+    {
+      "dataset_index": 1723,
+      "path": "val/n03028079/n03028079_2842.JPEG",
+      "sha256": "4e4166786ade6660d6cba8546ac4c70d7a73e4cae70be0d86c321ddad10d0981"
+    },
+    {
+      "dataset_index": 1731,
+      "path": "val/n03028079/n03028079_2941.JPEG",
+      "sha256": "a76bf7900bcfa201a5b28c00ca3ff4f553e9ee1609fde3dca353b4eda2656668"
+    },
+    {
+      "dataset_index": 1753,
+      "path": "val/n03028079/n03028079_3081.JPEG",
+      "sha256": "657d6e41972c4e2cb5d83371d88f0bb6f4c606cb210043cbf54b536cf1dfb1f2"
+    },
+    {
+      "dataset_index": 1769,
+      "path": "val/n03028079/n03028079_3320.JPEG",
+      "sha256": "3c693a78dcd5ff2bffa5e53228423c2b638002260e8950fc340431054c6e3b1d"
+    },
+    {
+      "dataset_index": 1799,
+      "path": "val/n03028079/n03028079_40120.JPEG",
+      "sha256": "c4b6ccfee6bd52fe10853fabbbb34b786e6100847a790d16383641f78bd4353e"
+    },
+    {
+      "dataset_index": 1803,
+      "path": "val/n03028079/n03028079_40711.JPEG",
+      "sha256": "571bb7cc5264dfe926331acee5922491fcab3fb4810a5b9bd780d232a94ffd5c"
+    },
+    {
+      "dataset_index": 1807,
+      "path": "val/n03028079/n03028079_42222.JPEG",
+      "sha256": "e7b2507f45ec800b01d2fb867e8637cb1e109ae35d57fbd8e7e64e996bff49e0"
+    },
+    {
+      "dataset_index": 1808,
+      "path": "val/n03028079/n03028079_4292.JPEG",
+      "sha256": "57f70ce4fca9dad2fc147fe5d43c13ea6efa65689d68be73d84a9d4dbfbd20a5"
+    },
+    {
+      "dataset_index": 1823,
+      "path": "val/n03028079/n03028079_49041.JPEG",
+      "sha256": "d625244cbbdc3f98aec5aa88c77d944402d1906ce7f677364dbec318f1753cd8"
+    },
+    {
+      "dataset_index": 1846,
+      "path": "val/n03028079/n03028079_6110.JPEG",
+      "sha256": "06919caa48ac29b9bc289281eae1f56be97e8963614755a1ed2e6abe1ca5f1da"
+    },
+    {
+      "dataset_index": 1858,
+      "path": "val/n03028079/n03028079_6720.JPEG",
+      "sha256": "05576f62f636b6b36dee4add20d87f0b4fce592bbca7bb1fe79481e32090cedf"
+    },
+    {
+      "dataset_index": 1874,
+      "path": "val/n03028079/n03028079_7301.JPEG",
+      "sha256": "ffb6e249346f3c50254732b96802b1281e3c2d64749687c343ff30bf77311441"
+    },
+    {
+      "dataset_index": 1878,
+      "path": "val/n03028079/n03028079_7392.JPEG",
+      "sha256": "f0d044fa1b50110866162c830772df33384b587720ea8ed00841108fc9fc1cdc"
+    },
+    {
+      "dataset_index": 1885,
+      "path": "val/n03028079/n03028079_7730.JPEG",
+      "sha256": "748712d727dee028c5ad653942fb46b58591a5314c707ac3f2f06ba6a7949346"
+    },
+    {
+      "dataset_index": 1918,
+      "path": "val/n03028079/n03028079_9220.JPEG",
+      "sha256": "b15f75f5da269c850bd7e66b8f66831bf792169f8f8e72509bb7809ff7a16ed5"
+    },
+    {
+      "dataset_index": 1934,
+      "path": "val/n03394916/ILSVRC2012_val_00001492.JPEG",
+      "sha256": "9309150552adaee69aa666a57d508f4165f7c32f800f94bb387c42b6db5e5bb1"
+    },
+    {
+      "dataset_index": 1955,
+      "path": "val/n03394916/n03394916_12430.JPEG",
+      "sha256": "6392afbe865c46256c366d058e7bcc37fcd3bb702b23c0241e3ee43c7112cc4b"
+    },
+    {
+      "dataset_index": 1984,
+      "path": "val/n03394916/n03394916_23222.JPEG",
+      "sha256": "1120b26bd8a8ef5b93864d8571f3e64fc1851e34d64a234d71358721ea6b0d5c"
+    },
+    {
+      "dataset_index": 2016,
+      "path": "val/n03394916/n03394916_28590.JPEG",
+      "sha256": "2f77401b860be668d6e2028c375a8fff38cfc66523d928cd7205dcec0e90186c"
+    },
+    {
+      "dataset_index": 2039,
+      "path": "val/n03394916/n03394916_29911.JPEG",
+      "sha256": "56b46a180a10477936b31156410684969a64999dacb95241d8634ae8464a4741"
+    },
+    {
+      "dataset_index": 2042,
+      "path": "val/n03394916/n03394916_30072.JPEG",
+      "sha256": "5919cead30c9791145d86be2abddfb02483264bd6006edf15e92b58691f6e4cf"
+    },
+    {
+      "dataset_index": 2054,
+      "path": "val/n03394916/n03394916_30700.JPEG",
+      "sha256": "c867af8e547c39df07bf2eafac3869c84f289fd3f410bbf236badf89fa47667a"
+    },
+    {
+      "dataset_index": 2069,
+      "path": "val/n03394916/n03394916_32800.JPEG",
+      "sha256": "f4679ae81b463c16774663254cd7d7996d4114b957fe2aaaf5574aee3d707d91"
+    },
+    {
+      "dataset_index": 2076,
+      "path": "val/n03394916/n03394916_33181.JPEG",
+      "sha256": "fd9044f55b34018c70a5b89bfc665c2955ccb5f9afa2d1b2a13ecb8c0c5bfbf5"
+    },
+    {
+      "dataset_index": 2117,
+      "path": "val/n03394916/n03394916_35871.JPEG",
+      "sha256": "2fdedd5751ec44f20aa2e9934115c89611ba7dee0c37f13fd699dc9435775be4"
+    },
+    {
+      "dataset_index": 2134,
+      "path": "val/n03394916/n03394916_36911.JPEG",
+      "sha256": "c6b6bf31dd31d72020ae2166257e56c1bfedae8b9244413895f76eb379744bb4"
+    },
+    {
+      "dataset_index": 2151,
+      "path": "val/n03394916/n03394916_38071.JPEG",
+      "sha256": "4e5c3b747f8a1104276fbe5de14a6f50182fecf29fef117c2731efba83f51ecd"
+    },
+    {
+      "dataset_index": 2156,
+      "path": "val/n03394916/n03394916_38320.JPEG",
+      "sha256": "c053f3103430b3dfbf23332e9aca83eb007838d83acb6095576fbb2ee901b2d2"
+    },
+    {
+      "dataset_index": 2189,
+      "path": "val/n03394916/n03394916_42671.JPEG",
+      "sha256": "0182c92c4a26a0e94909a88d3bdc0f12216d7ef842d2f2b6788798dd9edc3f6b"
+    },
+    {
+      "dataset_index": 2200,
+      "path": "val/n03394916/n03394916_43322.JPEG",
+      "sha256": "07e0b0567ee417bcfc2783a1f7d84557e546984308d327d8811ac54c51dce7eb"
+    },
+    {
+      "dataset_index": 2202,
+      "path": "val/n03394916/n03394916_43382.JPEG",
+      "sha256": "4c5b2e58d6f68b22fc012f4d4467734daae75341bd72edc7fbcba7e2243cf918"
+    },
+    {
+      "dataset_index": 2207,
+      "path": "val/n03394916/n03394916_43991.JPEG",
+      "sha256": "ddb697def1927f397af4a96b34b30c3c778edd7f0cbf18953fb736cbbe7a469d"
+    },
+    {
+      "dataset_index": 2221,
+      "path": "val/n03394916/n03394916_45760.JPEG",
+      "sha256": "4f80bb34def61cfa89071a4e816cd8c39bc49580cc9bd924d05374b6b3a2fd9d"
+    },
+    {
+      "dataset_index": 2233,
+      "path": "val/n03394916/n03394916_47211.JPEG",
+      "sha256": "afc5e6f96fc63180080fffe74607239f80e3f7b5705a71a3e53d4853e2b4ea91"
+    },
+    {
+      "dataset_index": 2236,
+      "path": "val/n03394916/n03394916_47300.JPEG",
+      "sha256": "1241eb77e10131727b122af5cd6d016a9b80ac863da0f535735b94cac5a2418f"
+    },
+    {
+      "dataset_index": 2259,
+      "path": "val/n03394916/n03394916_51161.JPEG",
+      "sha256": "4aa0877d9fbf8976337c0c1d8d62ba4c357d742f7b0e2c61ec9cd1d7b258b314"
+    },
+    {
+      "dataset_index": 2276,
+      "path": "val/n03394916/n03394916_54570.JPEG",
+      "sha256": "c27532b4c8e12cbb98d7902fc294cf3f0a32ddb58eedf029c673bd9dabcbb107"
+    },
+    {
+      "dataset_index": 2282,
+      "path": "val/n03394916/n03394916_55610.JPEG",
+      "sha256": "88a3ce7b17b6314cb39da6f40df1274f7d33be7b2529145142e52da9c43ac595"
+    },
+    {
+      "dataset_index": 2345,
+      "path": "val/n03417042/n03417042_10280.JPEG",
+      "sha256": "18004a40249eb217000e64ed936bb1e58106b8b283d48046c8d2d7c84fdb1f96"
+    },
+    {
+      "dataset_index": 2370,
+      "path": "val/n03417042/n03417042_11511.JPEG",
+      "sha256": "8f36a856ba68a9fbddccf695f1c1c787019db566d3ee0f2256515bbfe80e0141"
+    },
+    {
+      "dataset_index": 2377,
+      "path": "val/n03417042/n03417042_12031.JPEG",
+      "sha256": "e32403b7b95bdb4840c08ff38107761b6af93f230d6527310b08372e2c5d3fb5"
+    },
+    {
+      "dataset_index": 2412,
+      "path": "val/n03417042/n03417042_15482.JPEG",
+      "sha256": "1fa4921284a0a7023806a888b5bab0a3e9ab3cf89ecedbbb554a89ea162931eb"
+    },
+    {
+      "dataset_index": 2422,
+      "path": "val/n03417042/n03417042_16871.JPEG",
+      "sha256": "a4ecb20f3c8dbe07d75ee479264841abb24b2e9ca6196ad00d71bae73e43bfd6"
+    },
+    {
+      "dataset_index": 2458,
+      "path": "val/n03417042/n03417042_20280.JPEG",
+      "sha256": "2a4c2cfc0752e92e5154370ba4f4321c9f44c1645a7797b10ffd7169ff2902b1"
+    },
+    {
+      "dataset_index": 2471,
+      "path": "val/n03417042/n03417042_21270.JPEG",
+      "sha256": "8aff1b50f1ae81369d7a677a8f82abee7d348ef82adc56e74bc196d755154bec"
+    },
+    {
+      "dataset_index": 2472,
+      "path": "val/n03417042/n03417042_2132.JPEG",
+      "sha256": "05e039b67568a2e3decc3cf743a2e3c55ebadef8b3997817d985e97bf2b4c5b5"
+    },
+    {
+      "dataset_index": 2493,
+      "path": "val/n03417042/n03417042_2491.JPEG",
+      "sha256": "780eaa7c8f38cbc31930f1ff1041fa48c95129348e0c264b0c26b3e5347c7dce"
+    },
+    {
+      "dataset_index": 2502,
+      "path": "val/n03417042/n03417042_26850.JPEG",
+      "sha256": "50b6eb87bf849c16357e9a8e8208c734325b9eb5aad7512d3e7f9ce640ec91ef"
+    },
+    {
+      "dataset_index": 2514,
+      "path": "val/n03417042/n03417042_27680.JPEG",
+      "sha256": "ab407a34d5bd424b13f975d34cba40c62401905e97ff5e5135a5e3b16df891e5"
+    },
+    {
+      "dataset_index": 2526,
+      "path": "val/n03417042/n03417042_28261.JPEG",
+      "sha256": "fcd36cdd928df06bd011da950cd07dbcc8fcdccd43c55cb787591904cd63612d"
+    },
+    {
+      "dataset_index": 2529,
+      "path": "val/n03417042/n03417042_28600.JPEG",
+      "sha256": "49383834ab92f9ec9cd1e2b41f3524e7666d3cc418b2b22f7657837094262d0e"
+    },
+    {
+      "dataset_index": 2534,
+      "path": "val/n03417042/n03417042_28762.JPEG",
+      "sha256": "21c259b50bb0192ada22b8191e23bbc70aa638c0265947481d413efd6893151f"
+    },
+    {
+      "dataset_index": 2539,
+      "path": "val/n03417042/n03417042_29361.JPEG",
+      "sha256": "99aa1551177c2517b90f1369f0b09b1ff11bfeecc0dc5f6d392f436d30f95d0c"
+    },
+    {
+      "dataset_index": 2569,
+      "path": "val/n03417042/n03417042_3752.JPEG",
+      "sha256": "9021b34d8b3a94f7b867e5049b28d481ef2c91c82865e8cfaf9b20aa579aa679"
+    },
+    {
+      "dataset_index": 2589,
+      "path": "val/n03417042/n03417042_4491.JPEG",
+      "sha256": "4bd67671520282371aeb963b89d8f60bf0a693eb8dabd73fe95c6b5ac57117ca"
+    },
+    {
+      "dataset_index": 2596,
+      "path": "val/n03417042/n03417042_4600.JPEG",
+      "sha256": "6a85afffd1ecc9fc1cff33be5dbf3948abaf62b844ffcfc60c858a50db9fa387"
+    },
+    {
+      "dataset_index": 2614,
+      "path": "val/n03417042/n03417042_5510.JPEG",
+      "sha256": "edda1fbb61455dbeb75f93f9afe58b95de723f42c66890fc11e946d415a97eed"
+    },
+    {
+      "dataset_index": 2668,
+      "path": "val/n03417042/n03417042_7530.JPEG",
+      "sha256": "c353caf80fdffd480a4d0e2200686025c47945057a9aa7d6aa4077441afb16b1"
+    },
+    {
+      "dataset_index": 2727,
+      "path": "val/n03425413/ILSVRC2012_val_00032250.JPEG",
+      "sha256": "53df027ea90610a855114b7cc99a187534cced9fb64d9a35406603c04077a6a2"
+    },
+    {
+      "dataset_index": 2729,
+      "path": "val/n03425413/ILSVRC2012_val_00035242.JPEG",
+      "sha256": "d117a0c7e022f0566181c8599c9b84d93b38fcb40ec480f703da9bedc592effa"
+    },
+    {
+      "dataset_index": 2744,
+      "path": "val/n03425413/n03425413_11102.JPEG",
+      "sha256": "2843a1a7f6b0961e02952b6e210d7deb0f426f28b06182e4997ccace0cb4b399"
+    },
+    {
+      "dataset_index": 2745,
+      "path": "val/n03425413/n03425413_11161.JPEG",
+      "sha256": "f027d7b785aa36814105c28a8d956d3f0dec7186da78af346cc306e8e36e9b67"
+    },
+    {
+      "dataset_index": 2777,
+      "path": "val/n03425413/n03425413_13120.JPEG",
+      "sha256": "7a9fa3d3df5722bb0e96377597fe6abaed3eb67439f89c27a90ae3eeedbf1285"
+    },
+    {
+      "dataset_index": 2783,
+      "path": "val/n03425413/n03425413_13232.JPEG",
+      "sha256": "44e91d3c93235314ed68413fa8ae4f49224b2324553a94761d22991315ea7d89"
+    },
+    {
+      "dataset_index": 2785,
+      "path": "val/n03425413/n03425413_13381.JPEG",
+      "sha256": "de21c9b4a67e4ec0c1087b0fde491730b37261be936d1c72c93c6181a6d065e8"
+    },
+    {
+      "dataset_index": 2791,
+      "path": "val/n03425413/n03425413_13572.JPEG",
+      "sha256": "4445a58c8e1024a28e70cc1200f93a4ed6d105344c0a81ec07a0dedf5a9fffac"
+    },
+    {
+      "dataset_index": 2846,
+      "path": "val/n03425413/n03425413_14792.JPEG",
+      "sha256": "be9cb5b077e9e9bbe5ca5703a896a904c04229621f7d3b43540b7b65bc95f7d1"
+    },
+    {
+      "dataset_index": 2854,
+      "path": "val/n03425413/n03425413_15050.JPEG",
+      "sha256": "fa7930920eb52b8d581cd083ca1409ec296ff365c900c255e47db8232994f8ea"
+    },
+    {
+      "dataset_index": 2856,
+      "path": "val/n03425413/n03425413_15082.JPEG",
+      "sha256": "e3ffe7663d928a494b7632832b40d961260c35fa7997ff590a1820ceb7a8f0bc"
+    },
+    {
+      "dataset_index": 2859,
+      "path": "val/n03425413/n03425413_15291.JPEG",
+      "sha256": "f6965b9a77bbe6e3433e07d8468218bea211572c7e4d425880bbc783b559bded"
+    },
+    {
+      "dataset_index": 2866,
+      "path": "val/n03425413/n03425413_15601.JPEG",
+      "sha256": "3d335302ca4ad19c78f0be9633f3d46abf7d1609f434bcfa0f4205a46a9efd61"
+    },
+    {
+      "dataset_index": 2868,
+      "path": "val/n03425413/n03425413_15622.JPEG",
+      "sha256": "fd560e22ddd2d90276bb417fc6f896c4452e259c847b6a0a84b3d0e98e55c0ef"
+    },
+    {
+      "dataset_index": 2890,
+      "path": "val/n03425413/n03425413_16551.JPEG",
+      "sha256": "81358bf3ac9e0bd3f3e5b95b5a9177b7e056cb4f8f6a17deda0dc186b69e9ea7"
+    },
+    {
+      "dataset_index": 2904,
+      "path": "val/n03425413/n03425413_17000.JPEG",
+      "sha256": "8d0145d2cea9025ce57d71664f1c7c79396c5bbd0a8f3458154ba8ac2b5a60ec"
+    },
+    {
+      "dataset_index": 2917,
+      "path": "val/n03425413/n03425413_17521.JPEG",
+      "sha256": "887d76a1118b47fcfea49bfc55dc3b3a6bb89c9993632f74c41122e7ee6075e8"
+    },
+    {
+      "dataset_index": 2921,
+      "path": "val/n03425413/n03425413_17851.JPEG",
+      "sha256": "e683a5ea8bbf0f9965094937d314fb92ac0a66479141e60b7f41829e2a9ca136"
+    },
+    {
+      "dataset_index": 2939,
+      "path": "val/n03425413/n03425413_18871.JPEG",
+      "sha256": "9340b334c959a29c201b4e56427f49568a427616a38bddeb826ea0ddb85b439b"
+    },
+    {
+      "dataset_index": 2967,
+      "path": "val/n03425413/n03425413_20210.JPEG",
+      "sha256": "43472c3214fd46056ce7f3109a831925c95471ede192d1f5a90a4d6985d6ab14"
+    },
+    {
+      "dataset_index": 3005,
+      "path": "val/n03425413/n03425413_2141.JPEG",
+      "sha256": "0a1102febb2288154ff85c41e74e4955455d302bc4c748666c045e19c998c945"
+    },
+    {
+      "dataset_index": 3014,
+      "path": "val/n03425413/n03425413_22071.JPEG",
+      "sha256": "4b2adba4488d2f2b7e0f910280c667d2c06a7572c2e1cff364d59092e32966b3"
+    },
+    {
+      "dataset_index": 3020,
+      "path": "val/n03425413/n03425413_23312.JPEG",
+      "sha256": "2fef9988b9a6d92f6c05623543277928f427f1774c607d97da8f78d2e49d3646"
+    },
+    {
+      "dataset_index": 3058,
+      "path": "val/n03425413/n03425413_31710.JPEG",
+      "sha256": "b744a286c2f7a6be4b6ff48f2fbaf8bbbb51623196ba9a5f5b1d5b111abfe594"
+    },
+    {
+      "dataset_index": 3069,
+      "path": "val/n03425413/n03425413_430.JPEG",
+      "sha256": "88389af4b0307d1029605b1989b9bf5e87f2d7a3c3ca6df7e97fc6d1948868af"
+    },
+    {
+      "dataset_index": 3083,
+      "path": "val/n03425413/n03425413_5732.JPEG",
+      "sha256": "6d0cb4f5cc80d4b4727f6e31d125bd41edd66b769a103d1e3c2abd340f271c22"
+    },
+    {
+      "dataset_index": 3111,
+      "path": "val/n03425413/n03425413_7912.JPEG",
+      "sha256": "5de0a3ab9abea1e2a18c0d708131747766282358e7ad63b3fa71cb371e57d3fc"
+    },
+    {
+      "dataset_index": 3147,
+      "path": "val/n03445777/ILSVRC2012_val_00041672.JPEG",
+      "sha256": "62ef02186beff4ed51fbcbf89ff9edd044b27b5e376159533515fab756cfc915"
+    },
+    {
+      "dataset_index": 3154,
+      "path": "val/n03445777/n03445777_10141.JPEG",
+      "sha256": "7eca476feb5526e340c5478941c87a4d6eaf8e9895dd811bb07a8ee3684d6690"
+    },
+    {
+      "dataset_index": 3165,
+      "path": "val/n03445777/n03445777_10671.JPEG",
+      "sha256": "f07cd3c7526d8150aeb7685b3d7e15a1eeae8b55015b5005ac2e89cd239aca0d"
+    },
+    {
+      "dataset_index": 3188,
+      "path": "val/n03445777/n03445777_12172.JPEG",
+      "sha256": "2aa57373dbb1e2a88553e02c681bb7b1835f2ff8985337415e1b47609c194afd"
+    },
+    {
+      "dataset_index": 3197,
+      "path": "val/n03445777/n03445777_1281.JPEG",
+      "sha256": "bdaf1c6651954b837acdcfd6b32206991ef035dc13849d1d25d9ba78f6dadbb0"
+    },
+    {
+      "dataset_index": 3204,
+      "path": "val/n03445777/n03445777_13011.JPEG",
+      "sha256": "a9e81a488560309c8eff9ac48d4bffba085fecf5c7fb94060ddde73d10aae1d7"
+    },
+    {
+      "dataset_index": 3272,
+      "path": "val/n03445777/n03445777_1971.JPEG",
+      "sha256": "5c10b41ffdf24e1307c4df08f3817891af6bf62958dc3f29decea9ceffb6a9f9"
+    },
+    {
+      "dataset_index": 3274,
+      "path": "val/n03445777/n03445777_20061.JPEG",
+      "sha256": "160c52a18be07d669758a7ff759e5d2393dcc16d30fbde7ed58a28568522f01d"
+    },
+    {
+      "dataset_index": 3282,
+      "path": "val/n03445777/n03445777_210.JPEG",
+      "sha256": "631ebea75814745b93f5d9be9a76d19303aded7d59960d44b0c12a5793207776"
+    },
+    {
+      "dataset_index": 3289,
+      "path": "val/n03445777/n03445777_2332.JPEG",
+      "sha256": "b54d7e40f9c29cdea11fcc1466a8f5c269d4c11149d807f68b04549b6e77e7bc"
+    },
+    {
+      "dataset_index": 3299,
+      "path": "val/n03445777/n03445777_2770.JPEG",
+      "sha256": "8fa60d5fabefb906be3bdc2b8d9be2814a0a27dac5f4deaa17beb8faeea7a122"
+    },
+    {
+      "dataset_index": 3309,
+      "path": "val/n03445777/n03445777_3132.JPEG",
+      "sha256": "c2351fe68f444e0e271b66b091d5e88be38946fc05e356d7fb5b8b35c14f821d"
+    },
+    {
+      "dataset_index": 3343,
+      "path": "val/n03445777/n03445777_3992.JPEG",
+      "sha256": "c4624ec88a1afc2e62d145ae2b5bf80b3e43c0242891abca378a4559a7b8c483"
+    },
+    {
+      "dataset_index": 3360,
+      "path": "val/n03445777/n03445777_4390.JPEG",
+      "sha256": "2714c2fe8a3a07b0e7407515ad7c1c57d2f5e7d89e7e069dad72b069850fddda"
+    },
+    {
+      "dataset_index": 3363,
+      "path": "val/n03445777/n03445777_4520.JPEG",
+      "sha256": "e40cf58b1a3450e225b8ba0570127c54a294b0f93f72f9b5562ba7fee82ab857"
+    },
+    {
+      "dataset_index": 3376,
+      "path": "val/n03445777/n03445777_4872.JPEG",
+      "sha256": "ead58ae4b3a27d7a55ad579c74fad7d44957178edd8fb81d16f571f22c850a41"
+    },
+    {
+      "dataset_index": 3399,
+      "path": "val/n03445777/n03445777_5582.JPEG",
+      "sha256": "6877473b9363b23746ef03fcf1a1fe224b96e6eb74e6557a5ec633d3b0237937"
+    },
+    {
+      "dataset_index": 3421,
+      "path": "val/n03445777/n03445777_6071.JPEG",
+      "sha256": "0b08dedbffb9b60ab601bf0dd9099fd75c1e6cf2f222dd63b0ac0e3e5b48cb4a"
+    },
+    {
+      "dataset_index": 3426,
+      "path": "val/n03445777/n03445777_6162.JPEG",
+      "sha256": "6421f19ce55349b64d9e3513d5af4e775f360b3806a68e7ab8b2ea4492fa7dfb"
+    },
+    {
+      "dataset_index": 3437,
+      "path": "val/n03445777/n03445777_6451.JPEG",
+      "sha256": "c75741b598b5da913bf9270162eddd46f5fffb7e55ab7d93bafd572edd38b093"
+    },
+    {
+      "dataset_index": 3464,
+      "path": "val/n03445777/n03445777_7552.JPEG",
+      "sha256": "f42ba3a54ac89fb19fc2ed96d1c387c7c8925b0442995025bc1340e975abf27d"
+    },
+    {
+      "dataset_index": 3474,
+      "path": "val/n03445777/n03445777_7791.JPEG",
+      "sha256": "68985696a7567ed870bd420e6be745041e8b78740be505a8598410e037f5d3a0"
+    },
+    {
+      "dataset_index": 3477,
+      "path": "val/n03445777/n03445777_7930.JPEG",
+      "sha256": "7689d959281bafa507aa90787999935f31fd8e2df8d68c4ed20a524a4dd5fa5a"
+    },
+    {
+      "dataset_index": 3503,
+      "path": "val/n03445777/n03445777_8861.JPEG",
+      "sha256": "6ea83bfabbd79fdef1841850ff71197cd0debef5523b9658ed0d5424aeb4a722"
+    },
+    {
+      "dataset_index": 3504,
+      "path": "val/n03445777/n03445777_8971.JPEG",
+      "sha256": "f6c4bd1c7fb69edc8d3ffda7aabf130ef8cf69580b46f885e490aff681a24bb7"
+    },
+    {
+      "dataset_index": 3518,
+      "path": "val/n03445777/n03445777_9380.JPEG",
+      "sha256": "953d3c39912f0346d384fb59b83579da45dd400e6644e4524d598b8e5dcafbb8"
+    },
+    {
+      "dataset_index": 3524,
+      "path": "val/n03445777/n03445777_9740.JPEG",
+      "sha256": "edb1091215e260c0aa56538e52e768811923a4a0b379e2ce1f2ad4d7a3b304b9"
+    },
+    {
+      "dataset_index": 3534,
+      "path": "val/n03445777/n03445777_9971.JPEG",
+      "sha256": "2aa7c6abbdce65c63c09324a949472ebc561fb3fe39c0ffef5210d1170e012f0"
+    },
+    {
+      "dataset_index": 3572,
+      "path": "val/n03888257/n03888257_1171.JPEG",
+      "sha256": "417882da7b7c4ec7081f6fec7fd36283d4d5a9bdc5ea8796c4f12e0445e0088f"
+    },
+    {
+      "dataset_index": 3577,
+      "path": "val/n03888257/n03888257_11931.JPEG",
+      "sha256": "16fc4fc905c965f73032002dfcf5c352cf249b357cf9b4d026a377559fc57e14"
+    },
+    {
+      "dataset_index": 3587,
+      "path": "val/n03888257/n03888257_12491.JPEG",
+      "sha256": "545a24dfc64d5d3a0b5fa936a595e8e230f2eb322ef19293b51eeac6cf12a266"
+    },
+    {
+      "dataset_index": 3602,
+      "path": "val/n03888257/n03888257_13290.JPEG",
+      "sha256": "4b746a02bd1381b50c7c75ac697af223477c6802e0e00c396ddcb3b63fe4bf15"
+    },
+    {
+      "dataset_index": 3609,
+      "path": "val/n03888257/n03888257_142.JPEG",
+      "sha256": "f729ee939222eff301b3b5a5e3b28e3b7b08ec09901309c14e7dc0fdede423b6"
+    },
+    {
+      "dataset_index": 3636,
+      "path": "val/n03888257/n03888257_17872.JPEG",
+      "sha256": "0fb6067ff263bb0207dd6048b5f5084253c5fc02e408918d773e94ced5d3ae70"
+    },
+    {
+      "dataset_index": 3640,
+      "path": "val/n03888257/n03888257_18052.JPEG",
+      "sha256": "3803e6b499b2b744db5d0ad92471f8d1a2d1b442ad6059ee2f69a2b41afc79ef"
+    },
+    {
+      "dataset_index": 3654,
+      "path": "val/n03888257/n03888257_19531.JPEG",
+      "sha256": "4a2fa93ab65a6c67395e1243afe8efbb80a4a26cad86e07ab25f45556bc88a88"
+    },
+    {
+      "dataset_index": 3656,
+      "path": "val/n03888257/n03888257_19580.JPEG",
+      "sha256": "5607db4be4ff711453576a91414e1116396262e8dd4861ecdf9f65f5ff2d183e"
+    },
+    {
+      "dataset_index": 3663,
+      "path": "val/n03888257/n03888257_20151.JPEG",
+      "sha256": "da6ac3c374b4cc9a67a0387d6603392ab3f7527151f2644a44ccee8dbef4199e"
+    },
+    {
+      "dataset_index": 3685,
+      "path": "val/n03888257/n03888257_23350.JPEG",
+      "sha256": "f1edb4463afe982b6f00fef9a90a798f4e6b6796d98ab95c66359af37bd3fdcb"
+    },
+    {
+      "dataset_index": 3755,
+      "path": "val/n03888257/n03888257_32970.JPEG",
+      "sha256": "3ebbea061a8efd619e440320e1975244f8b0d3946b30ed27f47e20ae4c150601"
+    },
+    {
+      "dataset_index": 3816,
+      "path": "val/n03888257/n03888257_43982.JPEG",
+      "sha256": "77163d95610da0851c96d540579a9d0175434db18614f23ca880da0b7536ec4f"
+    },
+    {
+      "dataset_index": 3818,
+      "path": "val/n03888257/n03888257_44391.JPEG",
+      "sha256": "55bb3008813591d6495380e3f10b9ba6e3a55d1e986b8de73ed7f99fa96884b6"
+    },
+    {
+      "dataset_index": 3827,
+      "path": "val/n03888257/n03888257_482.JPEG",
+      "sha256": "e279cffae1b93af96aa5c7880430510aa829276ba08d8d848cab068cdbb6bcaf"
+    },
+    {
+      "dataset_index": 3829,
+      "path": "val/n03888257/n03888257_48910.JPEG",
+      "sha256": "b96d49c46c87d99c7c9bc4ef22834079e3b976cd4b5e7b927ca4818488828949"
+    },
+    {
+      "dataset_index": 3841,
+      "path": "val/n03888257/n03888257_5281.JPEG",
+      "sha256": "51ba9be9739fd7c842342c33b72b57cdf6c7a6d75a49d11df596fdc8cc903ca9"
+    },
+    {
+      "dataset_index": 3845,
+      "path": "val/n03888257/n03888257_5551.JPEG",
+      "sha256": "74cd93cace2f82720134bbea9e545e8521d55a5585e07c05b6fead8c9d492fc3"
+    },
+    {
+      "dataset_index": 3853,
+      "path": "val/n03888257/n03888257_5820.JPEG",
+      "sha256": "7e044a2c45e38979854d0b961d4372292915e0f7ca73c94a67639adae03a9f54"
+    },
+    {
+      "dataset_index": 3879,
+      "path": "val/n03888257/n03888257_7011.JPEG",
+      "sha256": "4d405ab7c282021a186fc2b2528c8e909d33915c0cce3e71cc77bc98c552c28c"
+    },
+    {
+      "dataset_index": 3880,
+      "path": "val/n03888257/n03888257_7061.JPEG",
+      "sha256": "f1555656200234406e1740bff85943174e7fcfe0be9e9e8ef05f3e2874d3b7ae"
+    },
+    {
+      "dataset_index": 3895,
+      "path": "val/n03888257/n03888257_76721.JPEG",
+      "sha256": "1e19a8881a60c1f44ab8b1c698a2bea86a8fe1e633edf1fbca0485b46676f366"
+    },
+    {
+      "dataset_index": 3898,
+      "path": "val/n03888257/n03888257_7960.JPEG",
+      "sha256": "ba2638e1f5de21745934ad83d43f227aeff482d92387f0b114a8f120b5edc9c2"
+    },
+    {
+      "dataset_index": 3902,
+      "path": "val/n03888257/n03888257_8080.JPEG",
+      "sha256": "5f8224c0c88e5b0e7d6e0960dee9a1f9cb51191cdda4102de406b0e69ddc2c00"
+    },
+    {
+      "dataset_index": 3920,
+      "path": "val/n03888257/n03888257_9671.JPEG",
+      "sha256": "00b8d522f69a962df2cfd1be1c321b761353719b7001e0c839885d1fca0f09fe"
+    }
+  ]
+}
