@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "train": 4096,
+    "tune": 64
+  },
+  "methods": [
+    "A3",
+    "R2",
+    "Gating",
+    "A0"
+  ],
+  "training": false,
+  "new_labels": false,
+  "queue_candidates": 406,
+  "queue_inputs": 151,
+  "bootstrap": 2000,
+  "source": "existing labelled pool; no global-KL inference for unlabelled candidates"
+}

@@ -1,0 +1,64 @@
+{
+  "inputs_train": 4096,
+  "inputs_tune": 64,
+  "methods": 4,
+  "seeds": 3,
+  "budgets": 3,
+  "metric_rows": 149760,
+  "candidate_inventory_rows": 221184,
+  "unmeasured_queued_candidates": 406,
+  "source_hashes_unchanged": true,
+  "training": false,
+  "new_teacher": false,
+  "backbone_inference": false,
+  "test_or_confirmation_loaded": false,
+  "pool_full_score_max_error": 1.1920928955078125e-07,
+  "checkpoint_validation_matches": [
+    {
+      "method": "A3",
+      "seed": 17,
+      "checkpoint_regret_difference": 5.151339840803182e-10
+    },
+    {
+      "method": "Gating",
+      "seed": 17,
+      "checkpoint_regret_difference": 8.350014273766915e-10
+    },
+    {
+      "method": "A0",
+      "seed": 17,
+      "checkpoint_regret_difference": 1.1908698853424493e-10
+    },
+    {
+      "method": "A3",
+      "seed": 23,
+      "checkpoint_regret_difference": 3.1839896171004245e-10
+    },
+    {
+      "method": "Gating",
+      "seed": 23,
+      "checkpoint_regret_difference": 1.079996562666774e-09
+    },
+    {
+      "method": "A0",
+      "seed": 23,
+      "checkpoint_regret_difference": 7.840604727971101e-11
+    },
+    {
+      "method": "A3",
+      "seed": 41,
+      "checkpoint_regret_difference": 5.016052486567224e-10
+    },
+    {
+      "method": "Gating",
+      "seed": 41,
+      "checkpoint_regret_difference": 3.3594463669239794e-10
+    },
+    {
+      "method": "A0",
+      "seed": 41,
+      "checkpoint_regret_difference": 4.882281506163322e-10
+    }
+  ],
+  "all_original_routers_already_have_listwise_joint_loss": true
+}
