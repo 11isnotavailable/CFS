@@ -1,0 +1,50 @@
+[
+  {
+    "kind":"pair",
+    "scope":"single_relation",
+    "relations":1,
+    "parameters":668801,
+    "weight_bytes":2704945,
+    "median_seconds":0.000140524,
+    "mean_seconds":0.0001416303,
+    "dense_linear_flops":1335808,
+    "flops_scope":"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",
+    "includes_backbone":false
+  },
+  {
+    "kind":"pair",
+    "scope":"complete_pool",
+    "relations":48,
+    "parameters":668801,
+    "weight_bytes":2704945,
+    "median_seconds":0.0001543046,
+    "mean_seconds":0.0001557069,
+    "dense_linear_flops":8675328,
+    "flops_scope":"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",
+    "includes_backbone":false
+  },
+  {
+    "kind":"joint",
+    "scope":"single_relation",
+    "relations":1,
+    "parameters":668801,
+    "weight_bytes":2704945,
+    "median_seconds":0.0001415359,
+    "mean_seconds":0.0001428997,
+    "dense_linear_flops":1335808,
+    "flops_scope":"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",
+    "includes_backbone":false
+  },
+  {
+    "kind":"joint",
+    "scope":"complete_pool",
+    "relations":72,
+    "parameters":668801,
+    "weight_bytes":2704945,
+    "median_seconds":0.0001536419,
+    "mean_seconds":0.0001547373,
+    "dense_linear_flops":12423168,
+    "flops_scope":"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",
+    "includes_backbone":false
+  }
+]

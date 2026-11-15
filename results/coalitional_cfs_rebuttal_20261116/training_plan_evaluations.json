@@ -1,0 +1,110 @@
+{
+  "cost": {
+    "pair": 2.210189510757725e-05,
+    "joint": 0.0004937127685277
+  },
+  "jobs": [
+    {
+      "kind": "joint",
+      "labels": 80,
+      "nominal_budget": 2500,
+      "curve": "evaluations",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 161,
+      "nominal_budget": 5000,
+      "curve": "evaluations",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 322,
+      "nominal_budget": 10000,
+      "curve": "evaluations",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 645,
+      "nominal_budget": 20000,
+      "curve": "evaluations",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 80,
+      "nominal_budget": 2500,
+      "curve": "evaluations",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 161,
+      "nominal_budget": 5000,
+      "curve": "evaluations",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 322,
+      "nominal_budget": 10000,
+      "curve": "evaluations",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 645,
+      "nominal_budget": 20000,
+      "curve": "evaluations",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 80,
+      "nominal_budget": 2500,
+      "curve": "evaluations",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 161,
+      "nominal_budget": 5000,
+      "curve": "evaluations",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 322,
+      "nominal_budget": 10000,
+      "curve": "evaluations",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 645,
+      "nominal_budget": 20000,
+      "curve": "evaluations",
+      "seed": 41,
+      "steps": 2000
+    }
+  ],
+  "batch": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "selection": "minimum validation per-input MSE every250 steps",
+  "budget_sampling_seed": 20261116,
+  "test_loaded": false
+}

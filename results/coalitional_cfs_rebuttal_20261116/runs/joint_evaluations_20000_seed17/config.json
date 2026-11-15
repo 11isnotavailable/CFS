@@ -1,0 +1,19 @@
+{
+  "kind": "joint",
+  "labels": 645,
+  "nominal_budget": 20000,
+  "curve": "evaluations",
+  "seed": 17,
+  "steps": 2000,
+  "parameters": 668801,
+  "unique_training_inputs": 478,
+  "target_mean": 0.2926243245601654,
+  "target_std": 0.23157501220703125,
+  "normalization": "all train features, no validation/test",
+  "backbone_frozen": true,
+  "loss": "standardized raw CFS MSE",
+  "batch": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "test_used": false
+}

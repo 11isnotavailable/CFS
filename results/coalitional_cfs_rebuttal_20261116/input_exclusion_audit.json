@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "excluded_paths": 4864,
+  "excluded_content_hashes": 4864,
+  "test_images": 256,
+  "old_npz_hashes": {
+    "D:\\tries2\\outputs\\learned_gating_inputs_20261115\\train.npz": "afa6fd60521efee751d51242d3ae0e36196142629d0943dcb3675a214c37aaa2",
+    "D:\\tries2\\outputs\\learned_gating_inputs_20261115\\tune.npz": "52cc998165f34e4e737b77ad41997b1eb90cbe9576ca8c1e61cf66a4833a71ee",
+    "D:\\tries2\\outputs\\learned_gating_inputs_20261115\\test.npz": "b362621e737517717e2c127207a0a8ccd8bdaa7b40a10f81ba294ab83a060237"
+  },
+  "confirmation_manifest_sha256": "88444b630a6f1bc266e393ef529f5f470b9e135039b32ab10c3892c151d2731d",
+  "scope": "original routing cohorts plus later256 confirmation images"
+}

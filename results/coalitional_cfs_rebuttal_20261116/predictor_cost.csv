@@ -1,0 +1,5 @@
+kind,scope,relations,parameters,weight_bytes,median_seconds,mean_seconds,dense_linear_flops,flops_scope,includes_backbone
+pair,single_relation,1,668801,2704945,0.0001405240036547,0.0001416302751749,1335808,"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",False
+pair,complete_pool,48,668801,2704945,0.0001543045509606,0.0001557069364935,8675328,"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",False
+joint,single_relation,1,668801,2704945,0.000141535885632,0.0001428996538743,1335808,"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",False
+joint,complete_pool,72,668801,2704945,0.0001536419149488,0.0001547373086214,12423168,"linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization",False

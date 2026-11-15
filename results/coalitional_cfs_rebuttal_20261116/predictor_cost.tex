@@ -1,0 +1,10 @@
+\begin{tabular}{llrrrrrrlr}
+\toprule
+kind & scope & relations & parameters & weight_bytes & median_seconds & mean_seconds & dense_linear_flops & flops_scope & includes_backbone \\
+\midrule
+pair & single_relation & 1 & 668801 & 2704945 & 0.000141 & 0.000142 & 1335808 & linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization & False \\
+pair & complete_pool & 48 & 668801 & 2704945 & 0.000154 & 0.000156 & 8675328 & linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization & False \\
+joint & single_relation & 1 & 668801 & 2704945 & 0.000142 & 0.000143 & 1335808 & linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization & False \\
+joint & complete_pool & 72 & 668801 & 2704945 & 0.000154 & 0.000155 & 12423168 & linear MAC=2 FLOPs, global encoder shared; excludes activations, embeddings and normalization & False \\
+\bottomrule
+\end{tabular}

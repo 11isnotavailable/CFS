@@ -1,0 +1,326 @@
+{
+  "cost": {
+    "pair": 2.210189510757725e-05,
+    "joint": 0.0004937127685277
+  },
+  "jobs": [
+    {
+      "kind": "pair",
+      "labels": 2500,
+      "nominal_budget": 2500,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 2500,
+      "nominal_budget": 2500,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 111,
+      "nominal_budget": 2500,
+      "curve": "cost",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 5000,
+      "nominal_budget": 5000,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 5000,
+      "nominal_budget": 5000,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 223,
+      "nominal_budget": 5000,
+      "curve": "cost",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 10000,
+      "nominal_budget": 10000,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 10000,
+      "nominal_budget": 10000,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 447,
+      "nominal_budget": 10000,
+      "curve": "cost",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "labels",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 895,
+      "nominal_budget": 20000,
+      "curve": "cost",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "pair_info",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "information",
+      "seed": 17,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 2500,
+      "nominal_budget": 2500,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 2500,
+      "nominal_budget": 2500,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 111,
+      "nominal_budget": 2500,
+      "curve": "cost",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 5000,
+      "nominal_budget": 5000,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 5000,
+      "nominal_budget": 5000,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 223,
+      "nominal_budget": 5000,
+      "curve": "cost",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 10000,
+      "nominal_budget": 10000,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 10000,
+      "nominal_budget": 10000,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 447,
+      "nominal_budget": 10000,
+      "curve": "cost",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "labels",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 895,
+      "nominal_budget": 20000,
+      "curve": "cost",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "pair_info",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "information",
+      "seed": 23,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 2500,
+      "nominal_budget": 2500,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 2500,
+      "nominal_budget": 2500,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 111,
+      "nominal_budget": 2500,
+      "curve": "cost",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 5000,
+      "nominal_budget": 5000,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 5000,
+      "nominal_budget": 5000,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 223,
+      "nominal_budget": 5000,
+      "curve": "cost",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 10000,
+      "nominal_budget": 10000,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 10000,
+      "nominal_budget": 10000,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 447,
+      "nominal_budget": 10000,
+      "curve": "cost",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "pair",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "labels",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "joint",
+      "labels": 895,
+      "nominal_budget": 20000,
+      "curve": "cost",
+      "seed": 41,
+      "steps": 2000
+    },
+    {
+      "kind": "pair_info",
+      "labels": 20000,
+      "nominal_budget": 20000,
+      "curve": "information",
+      "seed": 41,
+      "steps": 2000
+    }
+  ],
+  "batch": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "selection": "minimum validation per-input MSE every250 steps",
+  "budget_sampling_seed": 20261116,
+  "test_loaded": false
+}

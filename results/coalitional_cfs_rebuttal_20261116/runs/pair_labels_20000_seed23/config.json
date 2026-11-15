@@ -1,0 +1,19 @@
+{
+  "kind": "pair",
+  "labels": 20000,
+  "nominal_budget": 20000,
+  "curve": "labels",
+  "seed": 23,
+  "steps": 2000,
+  "parameters": 668801,
+  "unique_training_inputs": 1024,
+  "target_mean": 0.17898240685462952,
+  "target_std": 0.20620742440223694,
+  "normalization": "all train features, no validation/test",
+  "backbone_frozen": true,
+  "loss": "standardized raw CFS MSE",
+  "batch": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "test_used": false
+}

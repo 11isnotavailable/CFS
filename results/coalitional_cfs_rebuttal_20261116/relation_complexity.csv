@@ -1,0 +1,5 @@
+heads,kind,relations,estimated_seconds_at_ViT12_unit_cost,projection_not_measurement
+12,pair,132,0.0029174501542001967,True
+12,joint,660,0.325850427228282,True
+40,pair,1560,0.03447895636782051,True
+40,joint,29640,14.633646459161028,True

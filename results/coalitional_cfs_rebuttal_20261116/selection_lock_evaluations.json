@@ -1,0 +1,66 @@
+{
+  "models": {
+    "joint_evaluations_2500_seed17": {
+      "step": 250,
+      "validation_mse": 0.05765853077173233,
+      "sha256": "c77584be289ba93586e82de665acc99e7c3e5dedce710243829b5bbbf92cc29b"
+    },
+    "joint_evaluations_5000_seed17": {
+      "step": 250,
+      "validation_mse": 0.05674821510910988,
+      "sha256": "8297a9fe82d8fab707ae00077f1305c92085bb28127bfdbefb61eb449cf98d76"
+    },
+    "joint_evaluations_10000_seed17": {
+      "step": 2000,
+      "validation_mse": 0.05493608117103577,
+      "sha256": "a6948bbf3f57a8d38fee1252edf28fbd45ca22f3a9ac709e454178f9a9dcaeaf"
+    },
+    "joint_evaluations_20000_seed17": {
+      "step": 1750,
+      "validation_mse": 0.05108083784580231,
+      "sha256": "49c4a5d3d154a398dce77ff83a3ef12e839e8ff776327bc29d9a2a6771fdb395"
+    },
+    "joint_evaluations_2500_seed23": {
+      "step": 250,
+      "validation_mse": 0.0579986572265625,
+      "sha256": "d99618782cbaa172e1ebf2f62daf28ca700ced4216f415259c0d3058282b9e8d"
+    },
+    "joint_evaluations_5000_seed23": {
+      "step": 250,
+      "validation_mse": 0.056391067802906036,
+      "sha256": "2be07f8dd8fe78d49a96dc22fb789d67d148bf7f9ecbed4bf098d53c9edd3689"
+    },
+    "joint_evaluations_10000_seed23": {
+      "step": 250,
+      "validation_mse": 0.053354017436504364,
+      "sha256": "a59f82be079dcc2a57801d2e673eefd35eb7e6c0cee4852b4ba5229e0eb44cf2"
+    },
+    "joint_evaluations_20000_seed23": {
+      "step": 1750,
+      "validation_mse": 0.050957683473825455,
+      "sha256": "bacfc81aecbaf9e3aca0f517f46a26073a5367e4e0fe46bd557715e5aec54482"
+    },
+    "joint_evaluations_2500_seed41": {
+      "step": 250,
+      "validation_mse": 0.05682951956987381,
+      "sha256": "8168d6c5541e0703f8387f17ddef01b39492288c76babcc02c514561eb5a7503"
+    },
+    "joint_evaluations_5000_seed41": {
+      "step": 250,
+      "validation_mse": 0.0562809482216835,
+      "sha256": "d490e4b128be74bb2a428bda1f014d2f1ab71705c2f7993db7ed26ed6000a885"
+    },
+    "joint_evaluations_10000_seed41": {
+      "step": 250,
+      "validation_mse": 0.05509575456380844,
+      "sha256": "cc705a3315eaef5b6e467545397f1c9353cf229ec4252bc845f0ef9f860aba82"
+    },
+    "joint_evaluations_20000_seed41": {
+      "step": 2000,
+      "validation_mse": 0.051499538123607635,
+      "sha256": "0465dbae4ad975b79f81561b77d69572a0906b874ed0589b72f4887ee4122866"
+    }
+  },
+  "time": 1794780093.958597,
+  "test_used": false
+}

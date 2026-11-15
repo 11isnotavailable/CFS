@@ -1,0 +1,30 @@
+[
+  {
+    "heads":12,
+    "kind":"pair",
+    "relations":132,
+    "estimated_seconds_at_ViT12_unit_cost":0.0029174502,
+    "projection_not_measurement":true
+  },
+  {
+    "heads":12,
+    "kind":"joint",
+    "relations":660,
+    "estimated_seconds_at_ViT12_unit_cost":0.3258504272,
+    "projection_not_measurement":true
+  },
+  {
+    "heads":40,
+    "kind":"pair",
+    "relations":1560,
+    "estimated_seconds_at_ViT12_unit_cost":0.0344789564,
+    "projection_not_measurement":true
+  },
+  {
+    "heads":40,
+    "kind":"joint",
+    "relations":29640,
+    "estimated_seconds_at_ViT12_unit_cost":14.6336464592,
+    "projection_not_measurement":true
+  }
+]
