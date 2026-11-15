@@ -1,0 +1,40 @@
+{
+  "checks": [
+    "2432 disjoint document and prefix hashes",
+    "frozen input hashes unchanged",
+    "all pretrained model hashes unchanged",
+    "dense reference logits agree across layers within FP32 tolerance"
+  ],
+  "layers": {
+    "11": {
+      "pair_train": 2048,
+      "pair_tune": 128,
+      "pilot_joint_train": 256,
+      "pilot_joint_tune": 64,
+      "full_joint_train": 2048,
+      "full_joint_tune": 128,
+      "taylor_repeated_kl_max_difference": 5.960464477261507e-07,
+      "test_rows": 9216,
+      "online_checks": 36,
+      "online_max_logit_error": 0.00030517578125,
+      "online_max_kl_error": 2.9206275939941406e-06,
+      "locked_models": 9
+    },
+    "8": {
+      "pair_train": 2048,
+      "pair_tune": 128,
+      "pilot_joint_train": 256,
+      "pilot_joint_tune": 64,
+      "full_joint_train": 2048,
+      "full_joint_tune": 128,
+      "taylor_repeated_kl_max_difference": 5.811452865045474e-07,
+      "test_rows": 9216,
+      "online_checks": 36,
+      "online_max_logit_error": 0.000335693359375,
+      "online_max_kl_error": 2.4586915969848633e-06,
+      "locked_models": 9
+    }
+  },
+  "dense_cross_layer_max_logit_error": 0.0,
+  "all_passed": true
+}

@@ -1,0 +1,43 @@
+{
+  "models": {
+    "R2_17": {
+      "epoch": 50,
+      "validation_hard_kl": 0.01725921966135502
+    },
+    "R2_23": {
+      "epoch": 50,
+      "validation_hard_kl": 0.017373105511069298
+    },
+    "R2_41": {
+      "epoch": 10,
+      "validation_hard_kl": 0.016500622034072876
+    },
+    "Gating_17": {
+      "epoch": 40,
+      "validation_hard_kl": 0.0170013178139925
+    },
+    "Gating_23": {
+      "epoch": 20,
+      "validation_hard_kl": 0.01699734292924404
+    },
+    "Gating_41": {
+      "epoch": 60,
+      "validation_hard_kl": 0.017252730205655098
+    },
+    "A0_17": {
+      "epoch": 50,
+      "validation_hard_kl": 0.016206447035074234
+    },
+    "A0_23": {
+      "epoch": 10,
+      "validation_hard_kl": 0.015598870813846588
+    },
+    "A0_41": {
+      "epoch": 60,
+      "validation_hard_kl": 0.0164675060659647
+    }
+  },
+  "test_used": false,
+  "primary": "original R2",
+  "time": 1794755767.1974401
+}

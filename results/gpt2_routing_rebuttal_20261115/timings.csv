@@ -1,0 +1,9 @@
+layer,method,scope,mean,median,std
+8,A0,"feature normalization excluded; all three budgets, exact search",0.001804690408486395,0.00178942340426145,0.00018127093984156962
+8,Gating,"feature normalization excluded; all three budgets, exact search",0.00032815058936340544,0.00031259795650830004,0.0001515534349986462
+8,R2,"feature normalization excluded; all three budgets, exact search",0.001946548842776439,0.00180511106736955,0.002409002675457346
+8,Taylor,supervised suffix backward; dense capture excluded,0.0059832953866134145,0.00508368830196555,0.011814887453411865
+11,A0,"feature normalization excluded; all three budgets, exact search",0.002017182386528728,0.00177739211358125,0.006401795619626482
+11,Gating,"feature normalization excluded; all three budgets, exact search",0.00032321856451739714,0.00031196000054475,2.1153088368276298e-05
+11,R2,"feature normalization excluded; all three budgets, exact search",0.001929835517027288,0.0017971175257116,0.002371783861398362
+11,Taylor,supervised suffix backward; dense capture excluded,0.002140167212928594,0.0019832467660307,0.002574641898463165

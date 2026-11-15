@@ -1,0 +1,41 @@
+{
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "config": "sample-10BT",
+  "dataset_revision": null,
+  "seed": 20260802,
+  "prefix_tokens": 128,
+  "prediction_position": 127,
+  "target_position": 128,
+  "one_position_per_document": true,
+  "document_disjoint": true,
+  "unique_prefixes": true,
+  "splits": {
+    "train": {
+      "count": 2048,
+      "file_sha256": "92fec529327f49e9bdabca14f9964539fc2d7ed6d8c589c5929537a56104242b"
+    },
+    "tune": {
+      "count": 128,
+      "file_sha256": "7dd93e554c284714c87b8fca81ce8c5fd4999850790bddb92be2716a8a47ef53"
+    },
+    "test": {
+      "count": 256,
+      "file_sha256": "c21e3d2881bd7c0afd1ebbbd3ec8aeb23c8cc3e0d35982d99e0b9c70bccd947c"
+    }
+  },
+  "download_endpoint": "https://hf-mirror.com",
+  "source_parquet": "/data/cfs_rebuttal_20261114/data/sample/10BT/000_00000.parquet",
+  "source_parquet_sha256": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871",
+  "dataset_revision_note": "Existing cached public parquet; revision not recorded historically",
+  "model_files": {
+    "vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783",
+    "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "model.safetensors": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+    "generation_config.json": "ed0b32ac72c0f5f44a719abb2d7786ea5146c871f83717b7f2018065954de02b",
+    "tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+  }
+}

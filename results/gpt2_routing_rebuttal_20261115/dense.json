@@ -1,0 +1,34 @@
+[
+  {
+    "layer":8,
+    "metric":"nll",
+    "mean":3.5615895475,
+    "ci_low":3.2114024616,
+    "ci_high":3.9303380354,
+    "sd_inputs":2.9484754196
+  },
+  {
+    "layer":8,
+    "metric":"ppl",
+    "mean":35.2191351645,
+    "ci_low":24.8138624187,
+    "ci_high":50.924199587,
+    "sd_inputs":null
+  },
+  {
+    "layer":11,
+    "metric":"nll",
+    "mean":3.5615895475,
+    "ci_low":3.2114024616,
+    "ci_high":3.9303380354,
+    "sd_inputs":2.9484754196
+  },
+  {
+    "layer":11,
+    "metric":"ppl",
+    "mean":35.2191351645,
+    "ci_low":24.8138624187,
+    "ci_high":50.924199587,
+    "sd_inputs":null
+  }
+]

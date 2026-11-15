@@ -1,0 +1,13 @@
+{
+  "split": "train",
+  "samples": 32,
+  "repeats": 3,
+  "seed": 17,
+  "batch": 1,
+  "prefix": 128,
+  "dtype": "float32",
+  "includes": "whole backbone prefix forward, features, normalization, router, subset search, gates, next-token LM head",
+  "excludes": "model construction, tokenization, data transfer",
+  "kv_cache": false,
+  "optimized_sparse_kernels": false
+}

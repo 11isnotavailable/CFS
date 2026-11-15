@@ -1,0 +1,346 @@
+{
+  "samples": 256,
+  "rows": 9216,
+  "selection_lock_sha256": "521dceeee76717973b544311dd54fbdb4c6a59121ea543c92ceb4113294c50a2",
+  "online_checks": [
+    {
+      "sample": 0,
+      "kind": "R2",
+      "keep": 3,
+      "online_max_error": 0.0001068115234375,
+      "online_kl_error": 2.4586915969848633e-06,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "R2",
+      "keep": 6,
+      "online_max_error": 0.00011444091796875,
+      "online_kl_error": 2.3655593395233154e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "R2",
+      "keep": 9,
+      "online_max_error": 0.0001068115234375,
+      "online_kl_error": 2.5890767574310303e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "Gating",
+      "keep": 3,
+      "online_max_error": 9.918212890625e-05,
+      "online_kl_error": 1.0058283805847168e-06,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "Gating",
+      "keep": 6,
+      "online_max_error": 0.00011444091796875,
+      "online_kl_error": 2.314336597919464e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "Gating",
+      "keep": 9,
+      "online_max_error": 0.00012969970703125,
+      "online_kl_error": 8.353963494300842e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "A0",
+      "keep": 3,
+      "online_max_error": 0.0001220703125,
+      "online_kl_error": 2.0489096641540527e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "A0",
+      "keep": 6,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 9.12696123123169e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 0,
+      "kind": "A0",
+      "keep": 9,
+      "online_max_error": 0.00011444091796875,
+      "online_kl_error": 1.8812716007232666e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "R2",
+      "keep": 3,
+      "online_max_error": 0.00030517578125,
+      "online_kl_error": 6.51925802230835e-09,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "R2",
+      "keep": 6,
+      "online_max_error": 0.000335693359375,
+      "online_kl_error": 2.385932020843029e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "R2",
+      "keep": 9,
+      "online_max_error": 0.0002899169921875,
+      "online_kl_error": 8.32180830911966e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "Gating",
+      "keep": 3,
+      "online_max_error": 0.0002593994140625,
+      "online_kl_error": 6.445770850405097e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "Gating",
+      "keep": 6,
+      "online_max_error": 0.0002593994140625,
+      "online_kl_error": 1.3223325368016958e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "Gating",
+      "keep": 9,
+      "online_max_error": 0.000274658203125,
+      "online_kl_error": 6.171467248350382e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "A0",
+      "keep": 3,
+      "online_max_error": 0.0003204345703125,
+      "online_kl_error": 1.8291757442057133e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "A0",
+      "keep": 6,
+      "online_max_error": 0.0002899169921875,
+      "online_kl_error": 7.612834451720119e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 1,
+      "kind": "A0",
+      "keep": 9,
+      "online_max_error": 0.000274658203125,
+      "online_kl_error": 2.012648110394366e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "R2",
+      "keep": 3,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 5.662441253662109e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "R2",
+      "keep": 6,
+      "online_max_error": 0.0001220703125,
+      "online_kl_error": 8.717179298400879e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "R2",
+      "keep": 9,
+      "online_max_error": 0.000152587890625,
+      "online_kl_error": 1.7695128917694092e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "Gating",
+      "keep": 3,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 1.0803341865539551e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "Gating",
+      "keep": 6,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 1.341104507446289e-06,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "Gating",
+      "keep": 9,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 8.088536560535431e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "A0",
+      "keep": 3,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 1.3634562492370605e-06,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "A0",
+      "keep": 6,
+      "online_max_error": 0.0001678466796875,
+      "online_kl_error": 1.125037670135498e-06,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 2,
+      "kind": "A0",
+      "keep": 9,
+      "online_max_error": 0.0001373291015625,
+      "online_kl_error": 2.9616057872772217e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "R2",
+      "keep": 3,
+      "online_max_error": 6.103515625e-05,
+      "online_kl_error": 1.862645149230957e-09,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "R2",
+      "keep": 6,
+      "online_max_error": 4.9591064453125e-05,
+      "online_kl_error": 1.909211277961731e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "R2",
+      "keep": 9,
+      "online_max_error": 6.103515625e-05,
+      "online_kl_error": 6.239861249923706e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "Gating",
+      "keep": 3,
+      "online_max_error": 5.7220458984375e-05,
+      "online_kl_error": 2.193264663219452e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "Gating",
+      "keep": 6,
+      "online_max_error": 4.9591064453125e-05,
+      "online_kl_error": 3.46451997756958e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "Gating",
+      "keep": 9,
+      "online_max_error": 4.57763671875e-05,
+      "online_kl_error": 2.668239176273346e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "A0",
+      "keep": 3,
+      "online_max_error": 5.340576171875e-05,
+      "online_kl_error": 3.948807716369629e-07,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "A0",
+      "keep": 6,
+      "online_max_error": 7.62939453125e-05,
+      "online_kl_error": 1.7695128917694092e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "sample": 3,
+      "kind": "A0",
+      "keep": 9,
+      "online_max_error": 6.103515625e-05,
+      "online_kl_error": 6.28642737865448e-08,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    }
+  ],
+  "checkpoint_hashes": {
+    "layer8/full/runs/R2_seed17/model.pt": "02f1066935bfd9957cb7978fa8bf9546ef2e3bcac32bfc5d58f1b4e045b26a2f",
+    "layer8/full/runs/R2_seed23/model.pt": "128ae339e573a57ae4bcdf679d6e46bbb4c115a92a73f0c85176e4f1d6fc2364",
+    "layer8/full/runs/R2_seed41/model.pt": "4504bc16685439a03200087718ca45d2e6717950274c8327866486746c6fea59",
+    "layer8/full/runs/Gating_seed17/model.pt": "dd4a3eeec26f1921627c11d173c8197964eef134662e7569e5aa3f381d6882d1",
+    "layer8/full/runs/Gating_seed23/model.pt": "887ba350fe3e58e55423663e969119aa5a86cf808f9cc952c1bef82f9cfa4a46",
+    "layer8/full/runs/Gating_seed41/model.pt": "436ac7b8a961c91c7f017f1f2b2e673b78b8ddc7b28f6c48448638d456f8aa2a",
+    "layer8/full/runs/A0_seed17/model.pt": "eeb8abf9188fde2f0092571cecffe1fb4f79cbbe59c7c30ab22189fe30ad2814",
+    "layer8/full/runs/A0_seed23/model.pt": "069359ce9d74755d77978303c63dad69d0a7b15a4dbbb236156c4c0f584afb1d",
+    "layer8/full/runs/A0_seed41/model.pt": "18e65a7a6b37c5d847d1f311b7037c5bcb9040407ee024dd8860d63b39fbd0e7"
+  },
+  "backbone_trained": false,
+  "shared_hard_gating": true,
+  "taylor_uses_target": true,
+  "seconds": 14.18213240802288
+}

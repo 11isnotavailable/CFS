@@ -1,0 +1,20 @@
+{
+  "python": "3.13.9",
+  "platform": "Linux-6.17.2-1-pve-x86_64-with-glibc2.41",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "transformers": "4.51.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.6",
+    "datasets": "3.6.0",
+    "pyarrow": "26.0.1",
+    "safetensors": "0.5.3",
+    "timm": "1.0.28",
+    "pytest": "8.4.2"
+  },
+  "cuda": "12.8",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition, 595.45.04\nNVIDIA RTX PRO 6000 Blackwell Workstation Edition, 595.45.04",
+  "precision": "FP32; TF32 disabled",
+  "unit_tests": "68 passed locally; 5 GPT-2 tests passed in remote production environment"
+}

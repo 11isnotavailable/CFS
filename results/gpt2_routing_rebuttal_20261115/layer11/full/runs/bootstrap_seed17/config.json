@@ -1,0 +1,16 @@
+{
+  "layer": 11,
+  "phase": "full",
+  "kind": "bootstrap",
+  "seed": 17,
+  "epochs": 60,
+  "train_inputs": 2048,
+  "tune_inputs": 128,
+  "parameters": 825091,
+  "optimized_parameters": 825091,
+  "batch": 64,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "validation": "true pairwise utility every10epochs",
+  "test_loaded": false
+}
