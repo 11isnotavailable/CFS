@@ -57,3 +57,13 @@ def test_bert_oracle_preserves_original_mean_over_inputs(tmp_path):
     summary,_,_=summarize('B6',source,tmp_path/'analysis',full=False)
     oracle=summary.set_index('metric').loc['raw','mean']
     assert np.isclose(oracle,.5) # Not the valid-source-weighted global ratio .68.
+
+def test_suffix_uses_prefix_for_actual_batch_shape():
+    from src.bert_medium_intervention import LastBlockOnly
+    class IdentityLayer(torch.nn.Module):
+        def forward(self,hidden,attention_mask=None):return (hidden,)
+    # Deliberately different cached prefixes simulate batch-dependent rounding.
+    cache={1:torch.zeros(1,2,4),3:torch.full((3,2,4),.125)}
+    suffix=LastBlockOnly(IdentityLayer(),cache)
+    assert torch.equal(suffix(torch.zeros(3,2,dtype=torch.long)).last_hidden_state,cache[3])
+    assert torch.equal(suffix(torch.zeros(1,2,dtype=torch.long)).last_hidden_state,cache[1])

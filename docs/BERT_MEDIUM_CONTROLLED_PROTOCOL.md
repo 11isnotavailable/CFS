@@ -138,3 +138,21 @@ results. `analysis/` contains per-input metrics, bootstrap draws, paired contras
 curves, raw CSV/JSON, LaTeX, Markdown and an evidence-based English rebuttal draft.
 Checkpoint comparisons are scheduled in advance and cannot select a preferred
 scaling direction. Missing or failed tasks are reported as incomplete.
+
+## Implementation correction after the first trained checkpoints
+
+The original batch-one prefix cache passed the untrained smoke test but failed
+the full-forward FP16 comparison on trained B1/B2. Prefix GEMMs can round
+differently when batch size changes. The corrected implementation caches the
+prefix separately for every actual intervention batch shape, including deletion
+and substitution chunks, using the original FP16 forward path. It does not relax
+the comparison tolerance or change alpha, discrepancy, aggregation, data, training
+or checkpoint selection. Trained B1 on four diagnostic inputs and trained B2 on
+the first failing input now match full-forward deletion/substitution KL exactly;
+alpha agreement is100%. A batch-shape regression test was added.
+
+No formal matrix shards had been saved by the failed runs. Completed2B B1/B2
+training and all milestone weights were retained. The previous source lock is
+archived as `PROTOCOL_LOCK.before_batch_shape_fix.json`; the current lock records
+the two changed source hashes and implementation amendment. The scientific
+protocol fingerprint is unchanged.

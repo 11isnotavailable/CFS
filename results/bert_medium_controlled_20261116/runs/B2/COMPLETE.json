@@ -1,0 +1,13 @@
+{
+  "model": "B2",
+  "tokens": 2000000000,
+  "step": 61036,
+  "mlm_targets": 295279792,
+  "document_visits": 2860390,
+  "gpu_hours": 0.8035219275241252,
+  "protocol_hash": "32f3b6f227e443783f5240879034694ddf7cde481398686a4c1a14c45f0db298",
+  "data_hash": "9bf753ca6d3dfb7382e65fdcab07943959b1c5c42c3474ac5b278c1a103fc6c6",
+  "validation_ce": 2.457387685775757,
+  "validation_accuracy": 0.5447712540626526,
+  "validation_masked_positions": 38585
+}

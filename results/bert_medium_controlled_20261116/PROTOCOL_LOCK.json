@@ -91,12 +91,12 @@
     "scripts/audit_bert_medium.py": "e52c3e48c4f39996ae896d260b4c1978f206e72d770033a9ffb73189c75bfcb0",
     "scripts/train_bert_medium.py": "ff170e8eeebcbee8450bbdf167a9a8027bae7dfd7bf669fdd34e60b3c091ac77",
     "scripts/status_bert_medium.py": "f6deacc95ce8c5a322521cc414291e130058a3d99c3915d4837237871c99ee3a",
-    "scripts/collect_bert_medium.py": "d26d44340febf0cbc440170d2939b9207e317580212e87804da1ad71413fd740",
+    "scripts/collect_bert_medium.py": "bf7f3b005ef68a982e4ee0506d41711dd62b1de11b405b3c23688db05d848580",
     "scripts/smoke_bert_medium_cfs.py": "1c763396180ab02315e7c62edc1f5a000b13a8255761b809b554f967ab6d3ed8",
     "scripts/run_bert_medium.py": "7d4016a4fb6e38873994074afdbdfb233d781d5ab64e5f0962dd95fcccae0860",
     "scripts/check_bert_medium_resume.py": "45eb67058814abfa03ffba3e12e9afcdd3b70adae179ebaf57463cdd93f05943",
     "src/bert_medium.py": "a977c866c69a601fd4eb0b2fc1bb5c9d2a056350a1877a0db7c88ab74fe774c1",
-    "src/bert_medium_intervention.py": "5f51481136df5dee459a0cc0bd77a36b2c734d5f83e36cf6752c24cf45320d4f",
+    "src/bert_medium_intervention.py": "a438f922f93682258ef5215361c41499d7c615ea31acd54018edcee0e3801a9c",
     "src/bert_throughput.py": "de8115497fddb33911a80029f442d52b0f3f6e93a19b403c00a71c92388cb314",
     "src/text_head_intervention.py": "261133f3157e7969a1aa25d7ce8fd6075e029fb4a6212386cc69f5440a0cbfef",
     "scripts/benchmark_bert_controlled.py": "6ff91cee5be009f877838b3e02680d73da56643775067f2f36525908286d5730",
@@ -105,5 +105,23 @@
     "scripts/analyze_functional_capacity.py": "594c7065e64d3b84bbf70a817f112258533978ecd3edc8247d88ca4460c32f96",
     "scripts/analyze_qwen_cfs.py": "fb69d3e7edd82f46954cd5c2d1e79d9f02387210b0873d487d43fb66a2e484c3",
     "scripts/analyze_scaling_cfs.py": "aaa0339da3ddce803a539473ad6f86c1b9b95dcb9ea157e25682569bc27b7d26"
-  }
+  },
+  "implementation_amendments": [
+    {
+      "utc": "2026-11-16T07:12:55.260033+00:00",
+      "reason": "Preserve original FP16 full-forward numerics by caching prefixes at actual intervention batch sizes. No tolerance, metric, training or data change.",
+      "changes": {
+        "scripts/collect_bert_medium.py": {
+          "before": "d26d44340febf0cbc440170d2939b9207e317580212e87804da1ad71413fd740",
+          "after": "bf7f3b005ef68a982e4ee0506d41711dd62b1de11b405b3c23688db05d848580"
+        },
+        "src/bert_medium_intervention.py": {
+          "before": "5f51481136df5dee459a0cc0bd77a36b2c734d5f83e36cf6752c24cf45320d4f",
+          "after": "a438f922f93682258ef5215361c41499d7c615ea31acd54018edcee0e3801a9c"
+        }
+      },
+      "previous_lock_sha256": "0cd79ae5262c64e615d5e9bcd94c4b3288bc7a706ac7f6132982c8c1f9dbdf5f",
+      "first_input_trained_B1_B2_max_KL_difference": 0
+    }
+  ]
 }

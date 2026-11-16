@@ -1,0 +1,109 @@
+{
+  "protocol": {
+    "target_tokens": 2000000000,
+    "checkpoints": [
+      500000000,
+      1000000000,
+      1500000000,
+      2000000000
+    ],
+    "batch": 256,
+    "seq": 128,
+    "seed": 42,
+    "lr": 0.0003,
+    "min_lr": 3e-05,
+    "warmup_fraction": 0.02,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "clip_grad": 1.0,
+    "dropout": 0.1,
+    "precision": "BF16 autocast / FP32 parameters and optimizer",
+    "mask_probability": 0.15,
+    "vocabulary": 30522,
+    "max_positions": 512,
+    "validation_documents": 2048,
+    "cfs_documents": 256,
+    "probe_documents": 64,
+    "cfs_positions": 8,
+    "cfs_mask_seed": 20260811,
+    "alpha_steps": 16,
+    "alpha_min": 0.0,
+    "alpha_max": 3.0,
+    "valid_drop": 1e-05,
+    "cover_threshold": 0.5,
+    "bootstrap": 2000,
+    "fixed_k": 4,
+    "subset_draws": 500,
+    "primary_tokens": 2000000000,
+    "automatic_extension": false,
+    "initialization": "random",
+    "token_count": "all128 non-padding positions including CLS/SEP;126 content positions",
+    "sampling": "one pass through shared frozen WordPiece blocks in original seeded shard/document order"
+  },
+  "specs": {
+    "B1": [
+      384,
+      8,
+      6
+    ],
+    "B2": [
+      512,
+      8,
+      8
+    ],
+    "B3": [
+      640,
+      8,
+      10
+    ],
+    "B4": [
+      512,
+      6,
+      8
+    ],
+    "B5": [
+      512,
+      12,
+      8
+    ],
+    "B6": [
+      512,
+      8,
+      4
+    ],
+    "B7": [
+      512,
+      8,
+      16
+    ]
+  },
+  "protocol_hash": "32f3b6f227e443783f5240879034694ddf7cde481398686a4c1a14c45f0db298",
+  "sources": {
+    "scripts/analyze_bert_medium.py": "3ae7aa8433a3d6b821267f1f20e050889560dbd1b964a705440c349ad63de329",
+    "scripts/prepare_bert_medium_data.py": "390e3fc0f54df1ec6c8ad2df7ca21581f3a3115d9130140e7d6364bd8ec06e70",
+    "scripts/report_bert_medium_benchmark.py": "0f642e823aba37bdb323ba58fcad631ee7dedd4bc516050ecf010218e23c23b8",
+    "scripts/benchmark_bert_medium.py": "45daced07d2dbdba1abf01a73c0e21cc9f58947415c271ea87e432d452734913",
+    "scripts/audit_bert_medium.py": "e52c3e48c4f39996ae896d260b4c1978f206e72d770033a9ffb73189c75bfcb0",
+    "scripts/train_bert_medium.py": "ff170e8eeebcbee8450bbdf167a9a8027bae7dfd7bf669fdd34e60b3c091ac77",
+    "scripts/status_bert_medium.py": "f6deacc95ce8c5a322521cc414291e130058a3d99c3915d4837237871c99ee3a",
+    "scripts/collect_bert_medium.py": "d26d44340febf0cbc440170d2939b9207e317580212e87804da1ad71413fd740",
+    "scripts/smoke_bert_medium_cfs.py": "1c763396180ab02315e7c62edc1f5a000b13a8255761b809b554f967ab6d3ed8",
+    "scripts/run_bert_medium.py": "7d4016a4fb6e38873994074afdbdfb233d781d5ab64e5f0962dd95fcccae0860",
+    "scripts/check_bert_medium_resume.py": "45eb67058814abfa03ffba3e12e9afcdd3b70adae179ebaf57463cdd93f05943",
+    "src/bert_medium.py": "a977c866c69a601fd4eb0b2fc1bb5c9d2a056350a1877a0db7c88ab74fe774c1",
+    "src/bert_medium_intervention.py": "5f51481136df5dee459a0cc0bd77a36b2c734d5f83e36cf6752c24cf45320d4f",
+    "src/bert_throughput.py": "de8115497fddb33911a80029f442d52b0f3f6e93a19b403c00a71c92388cb314",
+    "src/text_head_intervention.py": "261133f3157e7969a1aa25d7ce8fd6075e029fb4a6212386cc69f5440a0cbfef",
+    "scripts/benchmark_bert_controlled.py": "6ff91cee5be009f877838b3e02680d73da56643775067f2f36525908286d5730",
+    "scripts/collect_bert_mlm_scaling.py": "fe9efe0bcddabb33541c4aacbb0adbd0d0b289c921700d735074a50e0a062c0f",
+    "scripts/analyze_matched_scaling.py": "58c4aafd23eb0025b80c9341fefd0c6d9a56e3a5ca931f152ae58b8150d2c37d",
+    "scripts/analyze_functional_capacity.py": "594c7065e64d3b84bbf70a817f112258533978ecd3edc8247d88ca4460c32f96",
+    "scripts/analyze_qwen_cfs.py": "fb69d3e7edd82f46954cd5c2d1e79d9f02387210b0873d487d43fb66a2e484c3",
+    "scripts/analyze_scaling_cfs.py": "aaa0339da3ddce803a539473ad6f86c1b9b95dcb9ea157e25682569bc27b7d26"
+  }
+}

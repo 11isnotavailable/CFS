@@ -4,7 +4,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import numpy as np,torch
 from src.bert_medium import SPECS,P,make_model,fingerprint
-from src.bert_medium_intervention import wrap_last,CachedSuffix,stream_oracle
+from src.bert_medium_intervention import wrap_last,batch_matched_suffix,stream_oracle
 from scripts.collect_bert_mlm_scaling import selected_mlm_logits
 
 def main():
@@ -31,24 +31,24 @@ def main():
         records=[]
         for index in indices[chunk_start:chunk_start+8]:
             ids=torch.tensor(frozen['input_ids'][index:index+1],device='cuda');positions=torch.tensor(frozen['positions'][index:index+1],device='cuda')
-            inputs=dict(input_ids=ids);gate.set_head_scales(None);captured=[]
-            handle=model.bert.encoder.layer[-1].register_forward_pre_hook(lambda module,args:captured.append(args[0].detach()))
-            with torch.inference_mode(),torch.autocast('cuda',dtype=torch.float16):reference=selected_mlm_logits(model,inputs,positions).cpu()
-            handle.remove();suffix=CachedSuffix(model,captured[0])
+            inputs=dict(input_ids=ids)
+            suffix,reference=batch_matched_suffix(model,gate,inputs,positions,alphas)
             with torch.inference_mode(),torch.autocast('cuda',dtype=torch.float16):cached=selected_mlm_logits(suffix,inputs,positions).cpu()
             torch.testing.assert_close(reference,cached,rtol=1e-4,atol=1e-4)
             drop,sub,alpha,cube=stream_oracle(suffix,gate,inputs,positions,reference,alphas)
-            if index==indices[0]:
+            if index==indices[0] or a.count==4:
                 fd,fs,fa,_=stream_oracle(model,gate,inputs,positions,reference,alphas)
                 off=torch.isfinite(fs)
                 torch.testing.assert_close(drop,fd,rtol=.02,atol=2e-6)
                 torch.testing.assert_close(sub[off],fs[off],rtol=.02,atol=2e-6)
-                (a.output/'prefix_equivalence.json').write_text(json.dumps(dict(input_id=int(index),
+                check=dict(input_id=int(index),
                     max_drop_error=float((drop-fd).abs().max()),max_substitution_error=float((sub[off]-fs[off]).abs().max()),
                     valid_source_flips=int(((drop>1e-5)!=(fd>1e-5)).sum()),
-                    alpha_agreement=float((alpha[off]==fa[off]).float().mean())),indent=2))
+                    alpha_agreement=float((alpha[off]==fa[off]).float().mean()))
+                (a.output/f'prefix_equivalence_{index}.json').write_text(json.dumps(check,indent=2))
+                if index==indices[0]:(a.output/'prefix_equivalence.json').write_text(json.dumps(check,indent=2))
             records.append(dict(dataset_index=int(index),single_drop=drop.numpy(),substitution=sub.numpy(),best_alpha=alpha.numpy(),alpha_error_cube=cube.numpy()))
-            del suffix,captured;print('CFS',a.model,int(index),flush=True)
+            del suffix;print('CFS',a.model,int(index),flush=True)
         arrays={k:np.stack([r[k] for r in records]) for k in ['single_drop','substitution','best_alpha','alpha_error_cube']}
         tmp=dest.with_suffix('.tmp.npz');np.savez_compressed(tmp,dataset_index=np.array([r['dataset_index'] for r in records]),**arrays);tmp.replace(dest)
     (a.output/'COMPLETE.json').write_text(json.dumps(dict(seconds=time.time()-started,**metadata),indent=2))

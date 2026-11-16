@@ -22,11 +22,37 @@ def wrap_last(model):
 class LastBlockOnly(torch.nn.Module):
     def __init__(self,layer,hidden):super().__init__();self.layer=layer;self.hidden=hidden
     def forward(self,input_ids,**kwargs):
-        return SimpleNamespace(last_hidden_state=self.layer(self.hidden.expand(len(input_ids),-1,-1),attention_mask=None)[0])
+        # FP16 GEMM kernels can round differently for different batch shapes.
+        # A batch-one prefix expanded to32 is mathematically equivalent but does
+        # not reproduce the original full-forward intervention numerically.
+        hidden=self.hidden[len(input_ids)] if isinstance(self.hidden,dict) else self.hidden.expand(len(input_ids),-1,-1)
+        return SimpleNamespace(last_hidden_state=self.layer(hidden,attention_mask=None)[0])
 
 class CachedSuffix(torch.nn.Module):
     def __init__(self,model,hidden):
         super().__init__();self.bert=LastBlockOnly(model.bert.encoder.layer[-1],hidden);self.cls=model.cls
+
+def batch_matched_suffix(model,wrapper,inputs,positions,alphas,chunk=32):
+    """Cache each actual intervention batch shape using the original FP16 path."""
+    from scripts.collect_bert_mlm_scaling import selected_mlm_logits
+    h=wrapper.num_heads
+    sizes={1}
+    for total in [h,h*(h-1)*len(alphas)]:
+        sizes.update(min(chunk,total-start) for start in range(0,total,chunk))
+    hidden={};reference=None
+    wrapper.set_head_scales(None)
+    for size in sorted(sizes):
+        captured=[]
+        handle=model.bert.encoder.layer[-1].register_forward_pre_hook(lambda module,args:captured.append(args[0].detach()))
+        try:
+            indices=torch.zeros(size,device=positions.device,dtype=torch.long)
+            batch={name:value.index_select(0,indices) for name,value in inputs.items()}
+            with torch.inference_mode(),torch.autocast('cuda',dtype=torch.float16):
+                logits=selected_mlm_logits(model,batch,positions.index_select(0,indices))
+            hidden[size]=captured[0]
+            if size==1:reference=logits.cpu()
+        finally:handle.remove()
+    return CachedSuffix(model,hidden),reference
 
 def stream_oracle(model,wrapper,inputs,positions,reference,alphas,chunk=32):
     # Same original absolute candidate alpha: source=0, candidate=alpha;
