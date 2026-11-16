@@ -24,6 +24,11 @@ def main():
     assert all(x==identities[0] for x in identities) and len(set(identities[0]))==256
     cost=sum(json.loads(p.read_text())['gpu_hours'] for p in (root/'cfs').glob('*/*/WALL_COST.json'))
     hours=table.reserved_training_attempt_gpu_hours.sum()
+    actual_costs=table[['training_tokens','reserved_training_attempt_gpu_hours']].copy()
+    actual_costs['end_to_end_training_tokens_per_second']=actual_costs.training_tokens/(actual_costs.reserved_training_attempt_gpu_hours*3600)
+    actual_costs['mean_seconds_per_update_including_validation_io']=actual_costs.reserved_training_attempt_gpu_hours*3600/61036
+    actual_costs['successful_cfs_allocation_gpu_hours']=[sum(json.loads(p.read_text())['gpu_hours'] for p in (root/'cfs'/model).glob('*/WALL_COST.json')) for model in actual_costs.index]
+    actual_costs.to_csv(out/'actual_costs.csv');actual_costs.to_latex(out/'actual_costs.tex',float_format='%.5f')
     mc=[]
     for model in SPECS:
         frame=pd.read_csv(source/model/'subgraph_sampling.csv')
@@ -88,6 +93,7 @@ def main():
     text+=f'实际训练进程累计占用 {hours:.3f} GPU-hours（含启动、验证和存盘）；成功 CFS 采集累计占用 {cost:.3f} GPU-hours。'
     text+='CFS 的占用时长包含 CPU 计算/传输等待，不等于 GPU 忙碌时间；准备、benchmark 和失败诊断未计入这两项。'
     text+='原 GPT-2 七模型训练记录约 38.00 GPU-hours，但架构、tokenizer、序列长度、目标和硬件型号均不同，不能当作受控加速倍数。\n\n'
+    text+='正式训练吞吐量以完整训练进程的墙钟时间计算，包含验证和存盘，详见 actual_costs.csv：\n\n'+actual_costs.to_markdown(floatfmt='.4f')+'\n\n'
     text+='## Q2：训练充分性、非退化性与稳定性\n\n'
     text+=f"2B 有效 source 比例范围为 {table.valid_source_ratio.min():.4%}–{table.valid_source_ratio.max():.4%}，mean deletion KL 为 {table.mean_deletion_kl.min():.6f}–{table.mean_deletion_kl.max():.6f}。"
     text+='这些结果支持删除干预在数值上非退化，不等于已实现推理压缩。\n\n'
