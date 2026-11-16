@@ -1,0 +1,1 @@
+{"purpose": "Correctness tests only; no trained experiment results", "models": ["V6", "V7"], "checks": ["checkpoint roundtrip", "preprocessing", "FP16 dense/gate equivalence", "full alpha cube", "original collector and offline graph analysis", "H2 no matched2"]}

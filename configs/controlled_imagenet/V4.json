@@ -1,0 +1,29 @@
+{
+  "model_id": "V4",
+  "model_config": {
+    "img_size": 224,
+    "patch_size": 16,
+    "in_chans": 3,
+    "num_classes": 1000,
+    "global_pool": "token",
+    "embed_dim": 256,
+    "depth": 9,
+    "num_heads": 4,
+    "mlp_ratio": 4.0,
+    "qkv_bias": true,
+    "proj_bias": true,
+    "class_token": true,
+    "no_embed_class": false,
+    "reg_tokens": 0,
+    "pre_norm": false,
+    "qk_norm": false,
+    "init_values": null,
+    "drop_rate": 0.0,
+    "pos_drop_rate": 0.0,
+    "proj_drop_rate": 0.0,
+    "attn_drop_rate": 0.0,
+    "drop_path_rate": 0.1
+  },
+  "norm_eps": 1e-06,
+  "shared_protocol_sha256": "dabb6af3986b84bf2ff4fc3f1d3d12fb69cd132aa241ce04439d936375180dc9"
+}
