@@ -1,0 +1,6 @@
+{
+  "full_loss": 10.346477508544922,
+  "sparse_loss": 10.346476554870605,
+  "max_gradient_absolute_error": 2.8312206268310547e-07,
+  "dropout_disabled_for_equivalence_only": true
+}

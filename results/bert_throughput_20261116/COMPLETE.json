@@ -1,0 +1,18 @@
+{
+  "status": "benchmark_complete",
+  "recorded_at": "2026-11-16T11:41:40.185797+08:00",
+  "formal_training_started": false,
+  "model_checkpoints_saved": false,
+  "cfs_collected": false,
+  "measured_cases": 24,
+  "confirmation_cases": 4,
+  "gpu_snapshot": "index, name, utilization.gpu [%], memory.used [MiB]\n0, NVIDIA RTX PRO 6000 Blackwell Workstation Edition, 0 %, 2 MiB\n1, NVIDIA RTX PRO 6000 Blackwell Workstation Edition, 0 %, 2 MiB\n",
+  "source_sha256": {
+    "src/bert_throughput.py": "345bdbc1cdc9c9b37ffc073c7446945e8a80053090b6b8e55c71d46c792051b0",
+    "scripts/analyze_bert_benchmark.py": "1e0de1c4113908af085db39f62f4cca2628ad25d27d123269f570ac2e4b73bd5",
+    "scripts/benchmark_bert_controlled.py": "e166aeea8a502464c910ae3368e06ec1645f94659fb18ef14c6ddeb1407fba91",
+    "scripts/audit_gpt2_training_cost.py": "c6d7d7ce38eb5c101b4c002d391177fee367b2051c46e1adf09175fd2278f864",
+    "scripts/finalize_bert_benchmark.py": "a32714d3f54bf1b873673db3155915d326732ee69a58d7da8e579827fa2adad1",
+    "scripts/prepare_bert_benchmark.py": "cebf9d16be329086416a1ac09cc176b28b62f5a7aa9bdacfbaa0a1ab93f73648"
+  }
+}

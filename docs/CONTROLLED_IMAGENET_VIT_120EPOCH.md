@@ -1,5 +1,10 @@
 # Seven controlled ImageNet-1K ViTs: common 120-epoch initial budget
 
+**Run stopped by the user on 2026-11-16. This frozen recipe is retained for audit;
+do not resume it automatically. The current task is the finite
+[BERT throughput benchmark](../results/bert_throughput_20261116/REPORT.md), with no
+formal BERT training authorized.**
+
 This is the active protocol, fixed before production training on 2026-11-16.
 It supersedes both the initial 300-epoch proposal and the unexecuted individual
 early-stopping proposal. The objective is adequately trained, functionally stable,

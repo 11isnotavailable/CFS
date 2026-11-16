@@ -1,0 +1,26 @@
+{
+  "stage": "stopped_by_user",
+  "recorded_at": "2026-11-16T11:39:18.849940+08:00",
+  "reason": "User requested stop ViT and benchmark BERT only",
+  "prior_status": {
+    "stage": "training",
+    "queues": {
+      "0": [
+        "V1",
+        "V3",
+        "V4",
+        "V6"
+      ],
+      "1": [
+        "V2",
+        "V5",
+        "V7"
+      ]
+    },
+    "unix": 1794797778.2130156
+  },
+  "checkpoints": {
+    "V1": [],
+    "V2": []
+  }
+}

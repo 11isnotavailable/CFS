@@ -1,0 +1,59 @@
+{
+  "dataset": "HuggingFaceFW/fineweb",
+  "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+  "subset": "sample-10BT",
+  "source_file": "sample/10BT/008_00000.parquet",
+  "full_source_expected_sha256": "84d7a5c4849034c3f454f5ae387639b1e4083c5554b65148bfc725d37dd64228",
+  "full_source_hash_verified": false,
+  "partial_source_integrity": "Pinned revision + hashes of each downloaded HTTP range; full shard not downloaded",
+  "bytes_downloaded": 9605775,
+  "ranges": [
+    {
+      "start": 2147332795,
+      "end": 2147398330,
+      "sha256": "dd4d5900c9724f2591169ba9c92c82d1a1d7a09e2830d7eb1298604f014b27d6"
+    },
+    {
+      "start": 2143513657,
+      "end": 2147398322,
+      "sha256": "9a77fe2d17534591a5a6352b3ffeb90e545ae9be769cfd127da29ac33980195e"
+    },
+    {
+      "start": 4,
+      "end": 1864403,
+      "sha256": "2962099b90c2d1fcb356f7095736ac41ff6b66b6fda30ee397d7db44f0d8506b"
+    },
+    {
+      "start": 1993929,
+      "end": 3913365,
+      "sha256": "157915ae8acaccf3213f961d8811cdd5bd55aff60ec201f48bd8117d52454e63"
+    },
+    {
+      "start": 4041971,
+      "end": 5913706,
+      "sha256": "a5589ef02c836dab37d396ee756b80d2ff739baf8c69f19a92ad65f3a9ffb80a"
+    }
+  ],
+  "original_split": {
+    "seed": 42,
+    "modulus": 1000,
+    "bucket": 0,
+    "hash": "BLAKE2b-64(seed_as_ascii + NUL + UTF8_text), little-endian; validation iff hash % modulus == bucket"
+  },
+  "original_test_split": null,
+  "original_test_split_note": "Original GPT-2 preparation has train/validation only; no test split invented",
+  "documents_read": 2048,
+  "validation_documents_excluded": 1,
+  "training_blocks": 9799,
+  "input_tokens": 1254272,
+  "text_tokens": 1234674,
+  "sequence_length": 128,
+  "packing": "126 WordPiece tokens within one training document + CLS/SEP; discard short tails for throughput only",
+  "tokenizer": "google-bert/bert-base-uncased",
+  "tokenizer_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "vocab_size": 30522,
+  "vocab_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "cache_sha256": "70fc060097c7e601fd578d21c9fa7987ed2210f4f22ffb406ce5d4488d5ab5ff",
+  "seconds": 8.023688554763794,
+  "purpose": "Small repeatedly sampled throughput cache only; not a formal training split"
+}

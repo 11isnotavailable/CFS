@@ -1,0 +1,136 @@
+{
+  "dataset": "HuggingFaceFW/fineweb",
+  "subset": "sample-10BT",
+  "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+  "source_files": [
+    {
+      "path": "sample/10BT/000_00000.parquet",
+      "size": 2147292183,
+      "sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b"
+    },
+    {
+      "path": "sample/10BT/001_00000.parquet",
+      "size": 2146714409,
+      "sha256": "6e08e6b25ed415c734c2b7e071afd6e62536f418afba0028c77c225218229c08"
+    },
+    {
+      "path": "sample/10BT/002_00000.parquet",
+      "size": 2148105492,
+      "sha256": "37f389ea51e8db23cab8943c1634bfaa9936f09beff25e06dfe173e5b49566ac"
+    },
+    {
+      "path": "sample/10BT/003_00000.parquet",
+      "size": 2147060562,
+      "sha256": "fa0fba42d6608dd650f8637cf27ea1362ce80ca8d2506fe1370e6c658455635f"
+    },
+    {
+      "path": "sample/10BT/004_00000.parquet",
+      "size": 2146566804,
+      "sha256": "c862bb4620c4a8037872b753e4520abdf2ec01a627bd9cab375f946cf7d21208"
+    },
+    {
+      "path": "sample/10BT/005_00000.parquet",
+      "size": 2146969492,
+      "sha256": "7e504858556b556547c79f7e4ed4b1a635a8ff0c7acaba4fc96293043be192fe"
+    },
+    {
+      "path": "sample/10BT/006_00000.parquet",
+      "size": 2147298995,
+      "sha256": "956467cb8120d5c4b0ddfb5e1fe2078f1f8bb21018c1e65caecf1c2d381743fd"
+    },
+    {
+      "path": "sample/10BT/007_00000.parquet",
+      "size": 2148002325,
+      "sha256": "0c6e3febbf7d56e51dac7594e6c94e7f786a59d4a0f33d5ab5e98aaa49ef32d0"
+    },
+    {
+      "path": "sample/10BT/008_00000.parquet",
+      "size": 2147398331,
+      "sha256": "84d7a5c4849034c3f454f5ae387639b1e4083c5554b65148bfc725d37dd64228"
+    },
+    {
+      "path": "sample/10BT/009_00000.parquet",
+      "size": 2148338231,
+      "sha256": "fbf1c8ceed24c754dc7be82df4c8a238b54a2865b0542af856662bb6c9f68cd8"
+    },
+    {
+      "path": "sample/10BT/010_00000.parquet",
+      "size": 2147655539,
+      "sha256": "69565902f5ac299767d62efb4320377870451072641af58fc320657d9afa5b5c"
+    },
+    {
+      "path": "sample/10BT/011_00000.parquet",
+      "size": 2147091724,
+      "sha256": "221ab32081d0a1b712e31b099912a3ea41bf3af568ddb6ce808adc3938a32ab3"
+    },
+    {
+      "path": "sample/10BT/012_00000.parquet",
+      "size": 2147653017,
+      "sha256": "34caf1a6bf36a635f58a5bab69c8e34c383dba15aab19d92de852188ba395716"
+    },
+    {
+      "path": "sample/10BT/013_00000.parquet",
+      "size": 2148275619,
+      "sha256": "48aa6144f665f98139a14cbc1cc28b976c895efc4e4c1df381cff362dbe96993"
+    },
+    {
+      "path": "sample/10BT/014_00000.parquet",
+      "size": 574962194,
+      "sha256": "7168f92a680b3e28155a6b654ebf235b19bf4d2ab35f91dbab3fb47cbd629a8e"
+    }
+  ],
+  "seeded_source_order": [
+    "sample/10BT/008_00000.parquet",
+    "sample/10BT/013_00000.parquet",
+    "sample/10BT/007_00000.parquet",
+    "sample/10BT/006_00000.parquet",
+    "sample/10BT/014_00000.parquet",
+    "sample/10BT/012_00000.parquet",
+    "sample/10BT/005_00000.parquet",
+    "sample/10BT/002_00000.parquet",
+    "sample/10BT/009_00000.parquet",
+    "sample/10BT/003_00000.parquet",
+    "sample/10BT/004_00000.parquet",
+    "sample/10BT/011_00000.parquet",
+    "sample/10BT/000_00000.parquet",
+    "sample/10BT/001_00000.parquet",
+    "sample/10BT/010_00000.parquet"
+  ],
+  "data_seed": 42,
+  "dtype": "little-endian uint16",
+  "eos_token_id": 50256,
+  "tokenizer": {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "vocab_size": 50257,
+    "eos_token_id": 50256,
+    "add_special_tokens": false,
+    "append_eot_after_each_document": true,
+    "files": {
+      "tokenizer_config.json": "f1cb5e31899749cf30935ccea01180ab3cfd484bd2bcf3bfdc1aeb9fdf935f6f",
+      "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+      "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+      "vocab.json": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7",
+      "special_tokens_map.json": "6f50ab5a5a509a1c309d6171f339b196a900dc9c99ad0408ff23bb615fdae7ad"
+    }
+  },
+  "tokenizer_json_sha256": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+  "split": {
+    "seed": 42,
+    "modulus": 1000,
+    "bucket": 0,
+    "hash": "BLAKE2b-64(seed_as_ascii + NUL + UTF8_text), little-endian; validation iff hash % modulus == bucket"
+  },
+  "packing": "Preserve Parquet row order within seeded file order; encode without truncation or normalization; append one EOT per document; concatenate each split independently. Train uses the first required tokens; validation uses its first required tokens. One extra lookahead token per stream.",
+  "train_tokens": 3000500225,
+  "validation_tokens": 1048577,
+  "train_sha256": "a41eac60dd96a364694d57ec58e61c282c46f3b4d3c49f612ffc8bf9d4ff1826",
+  "validation_sha256": "77b98000a346e8ed2788c1a64340c774fdef88262a63d5770f046ef8a6273ebf",
+  "processed_documents_including_last_batch": [
+    4309597,
+    4370
+  ],
+  "elapsed_seconds": 213,
+  "workers": 24
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "input_tokens_per_model": "100M",
+    "total_gpu_hours": 0.19573598062668418,
+    "two_gpu_hours": 0.09820729518297512,
+    "three_gpu_hours": 0.07171720133709097,
+    "ideal_total_divided_by2": 0.09786799031334209,
+    "ideal_total_divided_by3": 0.0652453268755614,
+    "two_gpu_with30percent_allowance": 0.12766948373786766,
+    "three_gpu_with30percent_allowance": 0.09323236173821826,
+    "two_gpu_assignment": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "three_gpu_assignment": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "input_tokens_per_model": "300M",
+    "total_gpu_hours": 0.5872079418800524,
+    "two_gpu_hours": 0.29462188554892543,
+    "three_gpu_hours": 0.21515160401127295,
+    "ideal_total_divided_by2": 0.2936039709400262,
+    "ideal_total_divided_by3": 0.19573598062668415,
+    "two_gpu_with30percent_allowance": 0.38300845121360305,
+    "three_gpu_with30percent_allowance": 0.27969708521465486,
+    "two_gpu_assignment": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "three_gpu_assignment": [
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      2
+    ]
+  },
+  {
+    "input_tokens_per_model": "1B",
+    "total_gpu_hours": 1.9573598062668411,
+    "two_gpu_hours": 0.9820729518297513,
+    "three_gpu_hours": 0.7171720133709099,
+    "ideal_total_divided_by2": 0.9786799031334206,
+    "ideal_total_divided_by3": 0.6524532687556137,
+    "two_gpu_with30percent_allowance": 1.2766948373786766,
+    "three_gpu_with30percent_allowance": 0.9323236173821828,
+    "two_gpu_assignment": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "three_gpu_assignment": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      2
+    ]
+  }
+]

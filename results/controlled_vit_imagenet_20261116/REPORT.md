@@ -1,5 +1,11 @@
 # Controlled ImageNet-1K ViT run: protocol and launch record
 
+**Update: stopped at the user's explicit request on 2026-11-16. Both ViT workers
+and their queue were terminated; no automatic restart is scheduled. Existing
+data/logs are preserved. See `STOPPED_BY_USER.json` and the replacement
+[finite BERT throughput benchmark](../bert_throughput_20261116/REPORT.md).
+The launch snapshot below is historical.**
+
 Status recorded on 2026-11-16: **preprocessing and the persistent queue are running;
 production training has not started yet. There are no trained CFS results to report.**
 
