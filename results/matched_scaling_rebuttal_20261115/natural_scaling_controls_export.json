@@ -1,0 +1,37 @@
+{
+  "source": "results\\matched_scaling_rebuttal_20261115\\all_results.csv",
+  "source_sha256": "743ab83e82cf3d98860b3007410d1cd8e7eaed867f8f8a51978d35a1428d81ee",
+  "original_plot_code": "scripts/summarize_matched_scaling.py",
+  "statistics_recomputed": false,
+  "reference_lines": "Raw Oracle and Full H retained; Full H uses normalization by H",
+  "figures": [
+    {
+      "pdf": "results\\matched_scaling_rebuttal_20261115\\fig_natural_scaling_controls.pdf",
+      "png": "results\\matched_scaling_rebuttal_20261115\\fig_natural_scaling_controls.png",
+      "width_inches": 7.0,
+      "height_inches": 4.800000000000001,
+      "raster_images": 0,
+      "subplot_labels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "panel_bounds_and_tick_overlap_checks": "passed",
+      "pdf_sha256": "830c10a9a60caccbcaaf45bf6d3d5b6a0d1c51847524f1afd694fcf3d0081cfe"
+    },
+    {
+      "pdf": "results\\matched_scaling_rebuttal_20261115\\fig_fixedk_rank_appendix.pdf",
+      "png": "results\\matched_scaling_rebuttal_20261115\\fig_fixedk_rank_appendix.png",
+      "width_inches": 7.0,
+      "height_inches": 2.5,
+      "raster_images": 0,
+      "subplot_labels": [
+        "a",
+        "b"
+      ],
+      "panel_bounds_and_tick_overlap_checks": "passed",
+      "pdf_sha256": "6956d4bce61ac62fc77f22bfccd4ec4f6bab48f4d7d81dd175c2329a0801234f"
+    }
+  ]
+}
