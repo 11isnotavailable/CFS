@@ -1,0 +1,59 @@
+{
+  "model": "B1",
+  "spec": [
+    384,
+    8,
+    6
+  ],
+  "protocol": {
+    "target_tokens": 2000000000,
+    "checkpoints": [
+      500000000,
+      1000000000,
+      1500000000,
+      2000000000
+    ],
+    "batch": 256,
+    "seq": 128,
+    "seed": 42,
+    "lr": 0.0003,
+    "min_lr": 3e-05,
+    "warmup_fraction": 0.02,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "clip_grad": 1.0,
+    "dropout": 0.1,
+    "precision": "BF16 autocast / FP32 parameters and optimizer",
+    "mask_probability": 0.15,
+    "vocabulary": 30522,
+    "max_positions": 512,
+    "validation_documents": 2048,
+    "cfs_documents": 256,
+    "probe_documents": 64,
+    "cfs_positions": 8,
+    "cfs_mask_seed": 20260811,
+    "alpha_steps": 16,
+    "alpha_min": 0.0,
+    "alpha_max": 3.0,
+    "valid_drop": 1e-05,
+    "cover_threshold": 0.5,
+    "bootstrap": 2000,
+    "fixed_k": 4,
+    "subset_draws": 500,
+    "primary_tokens": 2000000000,
+    "automatic_extension": false,
+    "initialization": "random",
+    "token_count": "all128 non-padding positions including CLS/SEP;126 content positions",
+    "sampling": "one pass through shared frozen WordPiece blocks in original seeded shard/document order"
+  },
+  "protocol_hash": "32f3b6f227e443783f5240879034694ddf7cde481398686a4c1a14c45f0db298",
+  "data_hash": "9bf753ca6d3dfb7382e65fdcab07943959b1c5c42c3474ac5b278c1a103fc6c6",
+  "parameters": 26293434,
+  "from_scratch": true,
+  "benchmark_weights_reused": false
+}

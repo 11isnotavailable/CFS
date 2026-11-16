@@ -1,0 +1,142 @@
+[
+  {
+    "path": "runs/B1/model_1000000000.pt",
+    "bytes": 105231995,
+    "sha256": "d09a8353a09aab5db429a443d6d5d863280c46f5fd4125b2b2f13ecfae903eb7"
+  },
+  {
+    "path": "runs/B1/model_1500000000.pt",
+    "bytes": 105231995,
+    "sha256": "f6807ba9829a1a43d7742979004863084f24c3473c667a422193e26442307e92"
+  },
+  {
+    "path": "runs/B1/model_2000000000.pt",
+    "bytes": 105231995,
+    "sha256": "96e9c754b6430140824ac38887f7b1b04d2350dc798c8aa97966a42dce350aa2"
+  },
+  {
+    "path": "runs/B1/model_500000000.pt",
+    "bytes": 105231851,
+    "sha256": "927e17f6e4fc86d66e2f705f1b11f826edfd830af42c045e5ad5d562a436184f"
+  },
+  {
+    "path": "runs/B2/model_1000000000.pt",
+    "bytes": 165677179,
+    "sha256": "ed0f979cdad9fa53c77a7bed2a98351dd20dd9b76a31cdd4ee3e392868a237aa"
+  },
+  {
+    "path": "runs/B2/model_1500000000.pt",
+    "bytes": 165677179,
+    "sha256": "d9486984598a39b6039dbe6bab1b94e124fd57632b03bba03a04d0eda955fb56"
+  },
+  {
+    "path": "runs/B2/model_2000000000.pt",
+    "bytes": 165677179,
+    "sha256": "f17459bed35d853db493f0cd4924a956a6c9192763bd8b72f8cdee13f870a0f1"
+  },
+  {
+    "path": "runs/B2/model_500000000.pt",
+    "bytes": 165677035,
+    "sha256": "0c54aad85077ef78d8ebb173e2e137030ed5e011e2e4202fc13357432bfde583"
+  },
+  {
+    "path": "runs/B3/model_1000000000.pt",
+    "bytes": 238836347,
+    "sha256": "d721ec9706cc465ff980f07f553cf7e7173af59b5a06058e5a85fac1f586e563"
+  },
+  {
+    "path": "runs/B3/model_1500000000.pt",
+    "bytes": 238836347,
+    "sha256": "03f3b5f1aa53bba688653d583c92f0df13dc1caf5fd6c534fd7177b36122820e"
+  },
+  {
+    "path": "runs/B3/model_2000000000.pt",
+    "bytes": 238836347,
+    "sha256": "c5c59733f3d8197a0a27c959c4a3dbf42a0bfd278c4f32fb0375ad691b28be21"
+  },
+  {
+    "path": "runs/B3/model_500000000.pt",
+    "bytes": 238836203,
+    "sha256": "70621864f9c6ae7b4a8d193f9215478ab75c0e01c721f53fe061589760d63b80"
+  },
+  {
+    "path": "runs/B4/model_1000000000.pt",
+    "bytes": 140444827,
+    "sha256": "9e701a3decb996d4bcef1de45505105e17421c3ce7063618a8b65a9ebb18ea8c"
+  },
+  {
+    "path": "runs/B4/model_1500000000.pt",
+    "bytes": 140444827,
+    "sha256": "7b3c42d4611f859cace05f7edf24efad43f7120fa8f09ead60c330e516878608"
+  },
+  {
+    "path": "runs/B4/model_2000000000.pt",
+    "bytes": 140444827,
+    "sha256": "9e428f42b8d19a4d4bdb816f7e284825fa8c6ad4150d95b644cb7c9d3f1935fe"
+  },
+  {
+    "path": "runs/B4/model_500000000.pt",
+    "bytes": 140444715,
+    "sha256": "04262ea811fce0640c334eb35caeae216e35bf30dc0f60aff87443c6523e9a87"
+  },
+  {
+    "path": "runs/B5/model_1000000000.pt",
+    "bytes": 216141947,
+    "sha256": "e453e07a31f4d28e154200188c88a01a4ce7fe8cd616b78fdf9f92bb90649573"
+  },
+  {
+    "path": "runs/B5/model_1500000000.pt",
+    "bytes": 216141947,
+    "sha256": "d355cddcc1cf319922dd118517661ad4b45e494afda5f11304bac8d91a5062b0"
+  },
+  {
+    "path": "runs/B5/model_2000000000.pt",
+    "bytes": 216141947,
+    "sha256": "ba79c2b964b4ccc908f660db11e7fd40266de1ed294fbceacbe5556b84726e7b"
+  },
+  {
+    "path": "runs/B5/model_500000000.pt",
+    "bytes": 216141739,
+    "sha256": "e97a7888a8c323b3d4cd43d6f7190755befa1e122efe6f158c55f55ede2c3736"
+  },
+  {
+    "path": "runs/B6/model_1000000000.pt",
+    "bytes": 165677179,
+    "sha256": "9a36892246e1fc4d0c8d995276b034f7807005498f058507c7c44ffba150ac98"
+  },
+  {
+    "path": "runs/B6/model_1500000000.pt",
+    "bytes": 165677179,
+    "sha256": "7aa77305b743cf33555315b113bc9b7c3622f6caa7cd965fb734afe3ec8e9d7d"
+  },
+  {
+    "path": "runs/B6/model_2000000000.pt",
+    "bytes": 165677179,
+    "sha256": "e21b86ce1c437f4d85660053faabc1a3fb825c278ea6201a3aa0ba4e2ee79112"
+  },
+  {
+    "path": "runs/B6/model_500000000.pt",
+    "bytes": 165677035,
+    "sha256": "29886760a4d68d63e6f0f8ac3590ee727d99d2979e75e209ede09f6ff663ff1b"
+  },
+  {
+    "path": "runs/B7/model_1000000000.pt",
+    "bytes": 165677179,
+    "sha256": "f0cf30c75e7251757ce2bc0238351b840fe1acaa3f6802c6c0cfaa94ca8346db"
+  },
+  {
+    "path": "runs/B7/model_1500000000.pt",
+    "bytes": 165677179,
+    "sha256": "eb42070505ee031d8b5050fae06896d254b66f896027e61d42b6df0e33f90f27"
+  },
+  {
+    "path": "runs/B7/model_2000000000.pt",
+    "bytes": 165677179,
+    "sha256": "798485578ee630f8dd2746c3ec8cea771b9bd44033d8183b595c3e60c4766952"
+  },
+  {
+    "path": "runs/B7/model_500000000.pt",
+    "bytes": 165677035,
+    "sha256": "a2c4975a04723ac7fefff73c443115ad4e72c42aac637e42c6c03cd4dbc2455b"
+  }
+]

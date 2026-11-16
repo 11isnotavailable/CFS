@@ -1,0 +1,163 @@
+{
+  "verified_evidence_files": 2351,
+  "milestone_checkpoints": 28,
+  "training_tokens_per_model": 2000000000,
+  "identical_target_counts": 295279792,
+  "identical_document_visits": 2860390,
+  "checks": [
+    {
+      "model": "B1",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B1",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B2",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B2",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B3",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B3",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B4",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B4",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B5",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B5",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B6",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B6",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B7",
+      "budget": "1B",
+      "inputs": 64,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    },
+    {
+      "model": "B7",
+      "budget": "2B",
+      "inputs": 256,
+      "valid_source_ratio": 1.0,
+      "input_id": 0,
+      "max_drop_error": 0.0,
+      "max_substitution_error": 0.0,
+      "valid_source_flips": 0,
+      "alpha_agreement": 1.0
+    }
+  ]
+}

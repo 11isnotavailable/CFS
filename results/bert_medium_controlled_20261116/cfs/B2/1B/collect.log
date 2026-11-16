@@ -1,0 +1,78 @@
+Traceback (most recent call last):
+  File "/data/cfs_bert_medium_20261116/scripts/collect_bert_medium.py", line 55, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/data/cfs_bert_medium_20261116/scripts/collect_bert_medium.py", line 45, in main
+    torch.testing.assert_close(sub[off],fs[off],rtol=.02,atol=2e-6)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/lewm_rope/venv/lib/python3.13/site-packages/torch/testing/_comparison.py", line 1519, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 11 / 56 (19.6%)
+Greatest absolute difference: 7.061776705086231e-05 at index (16,) (up to 2e-06 allowed)
+Greatest relative difference: 0.030213475227355957 at index (38,) (up to 0.02 allowed)
+CFS B2 0
+CFS B2 4
+CFS B2 8
+CFS B2 12
+CFS B2 16
+CFS B2 20
+CFS B2 24
+CFS B2 28
+CFS B2 32
+CFS B2 36
+CFS B2 40
+CFS B2 44
+CFS B2 48
+CFS B2 52
+CFS B2 56
+CFS B2 60
+CFS B2 64
+CFS B2 68
+CFS B2 72
+CFS B2 76
+CFS B2 80
+CFS B2 85
+CFS B2 89
+CFS B2 93
+CFS B2 97
+CFS B2 101
+CFS B2 105
+CFS B2 109
+CFS B2 113
+CFS B2 117
+CFS B2 121
+CFS B2 125
+CFS B2 129
+CFS B2 133
+CFS B2 137
+CFS B2 141
+CFS B2 145
+CFS B2 149
+CFS B2 153
+CFS B2 157
+CFS B2 161
+CFS B2 165
+CFS B2 170
+CFS B2 174
+CFS B2 178
+CFS B2 182
+CFS B2 186
+CFS B2 190
+CFS B2 194
+CFS B2 198
+CFS B2 202
+CFS B2 206
+CFS B2 210
+CFS B2 214
+CFS B2 218
+CFS B2 222
+CFS B2 226
+CFS B2 230
+CFS B2 234
+CFS B2 238
+CFS B2 242
+CFS B2 246
+CFS B2 250
+CFS B2 255

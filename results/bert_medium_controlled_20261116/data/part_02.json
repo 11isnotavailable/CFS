@@ -1,0 +1,13 @@
+{
+  "source": "sample/10BT/007_00000.parquet",
+  "source_sha256": "0c6e3febbf7d56e51dac7594e6c94e7f786a59d4a0f33d5ab5e98aaa49ef32d0",
+  "sequences": 5066026,
+  "first_sequence": 10120533,
+  "total_sequences": 15186559,
+  "processed_documents": 3125024,
+  "train_documents": 2779468,
+  "tokens_file": "train_02.bin",
+  "doc_ids_file": "doc_ids_02.bin",
+  "tokens_sha256": "582495592fa1ba2baf421763e0d24ac6ffd32d5021aaca705313cb27e088589b",
+  "doc_ids_sha256": "05c778bd47656f4a2ec879c9c4ef07ff375f10ef4b4abd21cb1ff8f6ad176141"
+}

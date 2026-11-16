@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/data/cfs_bert_medium_20261116/scripts/run_bert_medium.py", line 73, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/data/cfs_bert_medium_20261116/scripts/run_bert_medium.py", line 65, in main
+    for future in pending:future.result()
+                          ~~~~~~~~~~~~~^^
+  File "/root/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/root/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/root/anaconda3/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/data/cfs_bert_medium_20261116/scripts/run_bert_medium.py", line 59, in worker
+    if code:raise RuntimeError(f'{name} CFS failed at {budget}; preserved shards can resume')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: B2 CFS failed at 1000000000; preserved shards can resume
+B1 TRAIN_AND_CFS_COMPLETE
+B2 TRAIN_AND_CFS_COMPLETE
+B3 TRAIN_AND_CFS_COMPLETE
+B7 TRAIN_AND_CFS_COMPLETE
+B4 TRAIN_AND_CFS_COMPLETE
+B5 TRAIN_AND_CFS_COMPLETE
+B6 TRAIN_AND_CFS_COMPLETE

@@ -1,17 +1,6 @@
 {
-  "stage": "training_and_cfs",
-  "queues": {
-    "0": [
-      "B2",
-      "B7",
-      "B5"
-    ],
-    "1": [
-      "B1",
-      "B3",
-      "B4",
-      "B6"
-    ]
-  },
-  "unix": 1794813178.5556707
+  "stage": "complete_2B",
+  "automatic_extension": false,
+  "report": "/data/cfs_bert_medium_20261116/analysis/REPORT.md",
+  "unix": 1794824719.339169
 }
