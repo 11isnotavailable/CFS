@@ -1,0 +1,79 @@
+{
+  "dataset": "HuggingFaceFW/fineweb",
+  "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+  "subset": "sample-10BT",
+  "original_split": {
+    "seed": 42,
+    "modulus": 1000,
+    "bucket": 0,
+    "hash": "BLAKE2b-64(seed_as_ascii + NUL + UTF8_text), little-endian; validation iff hash % modulus == bucket"
+  },
+  "protocol_sha256": "32f3b6f227e443783f5240879034694ddf7cde481398686a4c1a14c45f0db298",
+  "sequence_count": 15625000,
+  "input_tokens": 2000000000,
+  "content_tokens": 1968750000,
+  "training_documents": 2860390,
+  "processed_documents": 3216672,
+  "validation_documents": 2048,
+  "validation_unique_hashes": 2048,
+  "shards": [
+    {
+      "source": "sample/10BT/008_00000.parquet",
+      "source_sha256": "84d7a5c4849034c3f454f5ae387639b1e4083c5554b65148bfc725d37dd64228",
+      "sequences": 5074352,
+      "first_sequence": 0,
+      "total_sequences": 5074352,
+      "processed_documents": 1034640,
+      "train_documents": 920715,
+      "tokens_file": "train_00.bin",
+      "doc_ids_file": "doc_ids_00.bin",
+      "tokens_sha256": "15f9ad1adc8b6381f29307d4afe9f0f3bf341f2bb3d35376d30b589293381f88",
+      "doc_ids_sha256": "88232166098466be17084d51675b93d54d1032b9d32c643a97849a2e27a71a22"
+    },
+    {
+      "source": "sample/10BT/013_00000.parquet",
+      "source_sha256": "48aa6144f665f98139a14cbc1cc28b976c895efc4e4c1df381cff362dbe96993",
+      "sequences": 5046181,
+      "first_sequence": 5074352,
+      "total_sequences": 10120533,
+      "processed_documents": 2081377,
+      "train_documents": 1852500,
+      "tokens_file": "train_01.bin",
+      "doc_ids_file": "doc_ids_01.bin",
+      "tokens_sha256": "4dc3f8dd1251b278489235a28e158bb29a9ca7b95631349002c9c92b8d19e5d4",
+      "doc_ids_sha256": "88d17e9c489664ee962f8e7de465384e6f4e88961cdfe789b65cf7753116ca44"
+    },
+    {
+      "source": "sample/10BT/007_00000.parquet",
+      "source_sha256": "0c6e3febbf7d56e51dac7594e6c94e7f786a59d4a0f33d5ab5e98aaa49ef32d0",
+      "sequences": 5066026,
+      "first_sequence": 10120533,
+      "total_sequences": 15186559,
+      "processed_documents": 3125024,
+      "train_documents": 2779468,
+      "tokens_file": "train_02.bin",
+      "doc_ids_file": "doc_ids_02.bin",
+      "tokens_sha256": "582495592fa1ba2baf421763e0d24ac6ffd32d5021aaca705313cb27e088589b",
+      "doc_ids_sha256": "05c778bd47656f4a2ec879c9c4ef07ff375f10ef4b4abd21cb1ff8f6ad176141"
+    },
+    {
+      "source": "sample/10BT/006_00000.parquet",
+      "source_sha256": "956467cb8120d5c4b0ddfb5e1fe2078f1f8bb21018c1e65caecf1c2d381743fd",
+      "sequences": 438441,
+      "first_sequence": 15186559,
+      "total_sequences": 15625000,
+      "processed_documents": 3216672,
+      "train_documents": 2860390,
+      "tokens_file": "train_03.bin",
+      "doc_ids_file": "doc_ids_03.bin",
+      "tokens_sha256": "3da23d9b5c61685bb279a35d09602d9d61c605435b5407420fbc6bb544fbe63b",
+      "doc_ids_sha256": "28d592dd847a9d61623a505fc2d6c19aee385bfa5b1ef6318ffaa8de17ad0d9f"
+    }
+  ],
+  "tokenizer_vocab_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "validation_sha256": "b51519cddb7771b6edd803933f065ea0d3cf2467c6c80842d3ad6900c59a0553",
+  "cfs_inputs_sha256": "548abb45e74eafd44f5444dc3a19c21732255af02e9c61cc5bb3fc8287c4b4d8",
+  "packing": "126 WordPiece content tokens within each document plus CLS/SEP; discard document tails; no padding",
+  "test_split": null,
+  "seconds": 959.965234041214
+}

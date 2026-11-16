@@ -66,8 +66,11 @@ def run(name,batch,mode,a):
     if mode=='resident':
         pool=torch.randint(104,30522,(batch,128),device='cuda'); pool[:,0]=101; pool[:,-1]=102
     else: stream=batches(a.root/'data/train_tokens.npy',batch)
+    input_waits=[]
     def step():
+        supply_started=time.perf_counter()
         ids=pool if pool is not None else next(stream)
+        input_waits.append(time.perf_counter()-supply_started)
         corrupted,labels=mask_tokens(ids)
         opt.zero_grad(set_to_none=True)
         with torch.autocast('cuda',dtype=torch.bfloat16): loss,masked=sparse_mlm_loss(model,corrupted,labels)
@@ -91,6 +94,9 @@ def run(name,batch,mode,a):
     value=dict(model=name,width=SPECS[name][0],depth=SPECS[name][1],heads=SPECS[name][2],
         parameters=sum(p.numel() for p in model.parameters()),batch_sequences=batch,sequence_length=128,
         mode=mode,gpu=a.gpu,warmup_updates=50,measured_updates=a.updates,warmup_seconds=warmup_seconds,
+        mean_host_input_wait_seconds=float(np.mean(input_waits[50:50+a.updates])),
+        host_input_wait_fraction=float(sum(input_waits[50:50+a.updates])/elapsed),
+        input_wait_scope='Host next-batch wait plus asynchronous H2D enqueue; device-copy completion not isolated',
         seconds=elapsed,seconds_per_update=elapsed/a.updates,p50_seconds=np.median(durations),p95_seconds=np.quantile(durations,.95),
         input_tokens_per_second=batch*128*a.updates/elapsed,text_tokens_per_second=batch*126*a.updates/elapsed,
         masked_targets_per_second=targets/elapsed,masked_fraction=targets/(batch*126*a.updates),

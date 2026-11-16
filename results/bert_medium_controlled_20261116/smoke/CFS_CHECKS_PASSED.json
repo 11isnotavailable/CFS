@@ -1,0 +1,33 @@
+{
+  "purpose": "Untrained correctness only",
+  "checks": [
+    {
+      "input": 0,
+      "max_drop_difference": 4.739849828183651e-07,
+      "max_substitution_difference": 4.739849828183651e-07,
+      "alpha_agreement": 1.0,
+      "streamed_seconds": 0.5034263939596713
+    },
+    {
+      "input": 1,
+      "max_drop_difference": 5.74218574911356e-07,
+      "max_substitution_difference": 5.74218574911356e-07,
+      "alpha_agreement": 1.0,
+      "streamed_seconds": 0.43774184212088585
+    },
+    {
+      "input": 2,
+      "max_drop_difference": 4.153698682785034e-07,
+      "max_substitution_difference": 4.153698682785034e-07,
+      "alpha_agreement": 1.0,
+      "streamed_seconds": 0.41520379902794957
+    },
+    {
+      "input": 3,
+      "max_drop_difference": 3.291061148047447e-07,
+      "max_substitution_difference": 3.291061148047447e-07,
+      "alpha_agreement": 1.0,
+      "streamed_seconds": 0.41547841113060713
+    }
+  ]
+}

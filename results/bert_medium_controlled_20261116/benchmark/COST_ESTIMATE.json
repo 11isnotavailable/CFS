@@ -1,0 +1,6 @@
+{
+  "total_training_gpu_hours": 5.649306904725254,
+  "optimal_two_gpu_hours": 2.8713232396171406,
+  "optimal_three_gpu_hours": 1.948844504775751,
+  "limitations": "Short windows; exclude preparation, clipping overhead, evaluation, checkpoint IO and CFS. B4/B6/B7 are estimates; third GPU hypothetical."
+}

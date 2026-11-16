@@ -1,0 +1,7 @@
+{
+  "torch": "2.7.1+cu128",
+  "transformers": "4.51.3",
+  "cuda": "12.8",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "total_vram": 101973491712
+}

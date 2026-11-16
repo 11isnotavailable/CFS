@@ -1,0 +1,9 @@
+{
+  "purpose": "Disposable training/resume test; weights never reused",
+  "updates": 14,
+  "exact_weight_equality": true,
+  "max_absolute_error": 0.0,
+  "tokens": 458752,
+  "masking_rng_equal": true,
+  "artifacts": "/data/cfs_bert_medium_20261116/smoke/resume_check_1794803360759369762"
+}
